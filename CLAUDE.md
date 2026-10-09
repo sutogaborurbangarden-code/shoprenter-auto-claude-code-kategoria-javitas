@@ -54,6 +54,32 @@ munkamenet megszakadt): 61 termék kategóriáinak szinkronizálása (76
 hozzáadás, 11 törlés, 22 gyűjtő), 2 termék leválasztása rossz szülőről
 (HED0118 ← GYUJTO0240, GRO2251 ← GYUJTO0226), majd ellenőrzés.
 
+## Babylon (babylon-grow.eu) – kategóriafa megújítás
+
+- Éles oldalon a régi fa, a sandboxban az új kategóriák; a felhasználó mondja
+  meg, melyik kategóriával haladunk.
+- **Kulcsszóadat-forrás (működik):** Windsor.ai MCP → `google_ads` connector,
+  fiók `867-850-6485` (Babylon Adwords). `get_data` mezők: `keyword`,
+  `avg_monthly_searches`, `keyword_competition`, `competition_index`;
+  options: `keyword_seeds` (max 20, vesszővel), `geo_target_constants: 2348`
+  (HU), `language: 1024` (magyar), `keyword_plan_network: GOOGLE_SEARCH`.
+  (`keyword_text` NEM megy együtt az `avg_monthly_searches`-szel.)
+- Csak valós Kulcsszótervező-számot írunk be, kitalált számot soha.
+- Excel-minta: a pH/EC kutatás (`Babylon_pH_EC_kulcsszokutatas_top30`) –
+  lapok: Összefoglaló, Bővítés – rokon területek, Összes kulcsszó,
+  kategórialapok (#, kulcsszó, havi, kötődés, érdemes, terület, felhasználás),
+  Gyártói kulcsszavak. Generátor: `kulcsszokutatas/scripts/build.py`
+  (bemenet: `merge.py` által készített `all.json`).
+- Az éles bolt terméklistája (Shoprenter API) a felhőből nem érhető el
+  (egress 403) – termékexportot kell kérni.
+
+### Kész kategóriák
+- [x] 2026-10-09 **Propagátor, propagátor kiegészítő** (új főkat.; al:
+  1. Propagátor, 2. Propagátor kiegészítő, propagátor fűtőlap; régi:
+  Palántanevelés → Palánta közegek / tápok / Propagátor kiegészítők /
+  Propagátorok / Vetőmagok) → `kulcsszokutatas/babylon/`.
+  Fő tanulság: „propagátor” 70/hó vs. „palántanevelő” 880, tálcák 3×1000.
+
 ## Nyitott kérdések / következő lépések
 
 - [ ] A kategóriafa-tervezésről és kulcsszókutatásról folytatott korábbi
