@@ -68,8 +68,13 @@ hozzáadás, 11 törlés, 22 gyűjtő), 2 termék leválasztása rossz szülőr�
 - Excel-minta: a pH/EC kutatás (`Babylon_pH_EC_kulcsszokutatas_top30`) –
   lapok: Összefoglaló, Bővítés – rokon területek, Összes kulcsszó,
   kategórialapok (#, kulcsszó, havi, kötődés, érdemes, terület, felhasználás),
-  Gyártói kulcsszavak. Generátor: `kulcsszokutatas/scripts/build.py`
-  (bemenet: `merge.py` által készített `all.json`).
+  Gyártói kulcsszavak. Generátor:
+  `python3 scripts/merge.py <adatmappa>` (Windsor `mcp-*.txt` fájlok +
+  `inline.tsv` → `all.json`), majd
+  `python3 scripts/build.py <adatmappa> <kimenet.xlsx> <kategória_config.py>`.
+  A kategóriánkénti adat (CATS, OLD, EXT, MAKERS, lapcímek) a
+  `kulcsszokutatas/babylon/*_config.py` fájlokban van; a build leáll, ha egy
+  kulcsszó nincs a lekért adatban (így kitalált szám nem kerülhet be).
 - Az éles bolt terméklistája (Shoprenter API) a felhőből nem érhető el
   (egress 403) – termékexportot kell kérni.
 
@@ -79,6 +84,25 @@ hozzáadás, 11 törlés, 22 gyűjtő), 2 termék leválasztása rossz szülőr�
   Palántanevelés → Palánta közegek / tápok / Propagátor kiegészítők /
   Propagátorok / Vetőmagok) → `kulcsszokutatas/babylon/`.
   Fő tanulság: „propagátor” 70/hó vs. „palántanevelő” 880, tálcák 3×1000.
+- [x] 2026-10-12 **Edények és tálcák** (jelenlegi al: Esővízgyűjtő, Hidro
+  cserép, Mérőedény, Speciális cserepek, Tálcák, Virágcserép, Alátét).
+  Tanulság: esővízgyűjtő tartály 6600 + esővízgyűjtő 5400 viszi az ágat,
+  virágcserép 2400; „Speciális cserepek” névre 0 keresés (→ Air-Pot,
+  ültetőzsák, szögletes, önöntöző), „Alátét” = csavaralátét (→ Cserépalátét),
+  „Tálcák” = konyhai (→ Műanyag tálca, árapály asztal).
+
+## Döntések: kannibalizáció, több helyen szereplő kategóriák (2026-10-09)
+
+- Egy termék, egy URL, több kategória-hozzárendelés; duplikált termék nincs.
+- Minden fő kulcsszónak egy céloldala van (title / H1 / URL / H2 csak ott);
+  máshol csak említés, linkkel a céloldalra.
+- Kis LED: LED-ág „Kis teljesítményű LED, növénylámpa” (növénynevelő lámpa
+  880), Palántanevelés-ág „Palántanevelő LED” (palántanevelő lámpa 390),
+  Mikrozöld-ág „Mikrozöld LED lámpa” = navigációs (0 keresés).
+- Terméknév-séma: [márka] [modell] [W] [terméktípus] – [felhasználás].
+- Mikrozöld = hub főkategória (rövid + hosszú leírás, csempék szűrt
+  céloldalakra); valódi alkategória ott, ahol saját keresés van
+  (mikrozöld mag, csíráztató).
 
 ## Nyitott kérdések / következő lépések
 
