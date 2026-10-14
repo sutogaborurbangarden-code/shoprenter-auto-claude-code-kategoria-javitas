@@ -87,6 +87,11 @@ hozzáadás, 11 törlés, 22 gyűjtő), 2 termék leválasztása rossz szülőr�
   kulcsszó nincs a lekért adatban (így kitalált szám nem kerülhet be).
 - Az éles bolt terméklistája (Shoprenter API) a felhőből nem érhető el
   (egress 403) – termékexportot kell kérni.
+- **Termékforrás a felhőből (működik, 2026-10-14):** Windsor.ai `google_ads`,
+  mezők `product_item_id`, `product_title` (Shopping-feed; item ID = SKU
+  kisbetűvel → nagybetűsítve). 2024-10 – 2026-10: 1999 termék →
+  `kulcsszokutatas/babylon/babylon_termekek_shopping_feed.json`. Csak a
+  hirdetett termékkör; gyártó / gyűjtőtermék nincs benne.
 
 ### Kész kategóriák
 - [x] 2026-10-09 **Propagátor, propagátor kiegészítő** (új főkat.; al:
@@ -104,8 +109,9 @@ hozzáadás, 11 törlés, 22 gyűjtő), 2 termék leválasztása rossz szülőr�
   szövetcserép; Tálca, alátét). Javaslat: Virágcserép (+ Nagy virágcserép
   3. szint, szögletes = szűrő, liter = szűrő), Air-Pot cserép, Szövetcserép /
   ültetőzsák, (Önöntöző), Cserépalátét, Műanyag tálca / árapály asztal.
-  Termékexport még hiányzik → a termékblokkok utólag. A build.py-ban
-  opcionális STRUCT → „Kategóriaszerkezet-ajánlás” + „Termékkínálat” lap.
+  Termékek a Shopping-feedből besorolva (142 termék a javasolt kategóriákban,
+  + más főkategóriába tartozók jelölve). Önöntöző: nincs termék → kimarad.
+  build.py: opcionális STRUCT + PRODUCTS (products.json az adatmappában).
 
 ## Döntések: kannibalizáció, több helyen szereplő kategóriák (2026-10-09)
 

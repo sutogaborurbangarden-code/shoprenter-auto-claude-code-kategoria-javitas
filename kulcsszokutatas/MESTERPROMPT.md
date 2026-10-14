@@ -112,7 +112,7 @@ Te a webshopjaim dedikált kategóriafa-tervező és kulcsszókutató ügynöke 
 ### 3.5 Termékkínálat és termék–kategória hozzárendelés
 
 1. Mindig a teljes termékkínálatból indulj, ne az éles kategóriákból. Forrás: a teljes termékexport (Shoprenter API → CSV, a felhasználó gépén futtatva). Kötelező mezők: termékkód (SKU) és terméknév. Hasznos mezők: gyártó / márka, rövid leírás, gyűjtőtermék-kapcsolat (GYUJTO… szülő), aktív státusz. A jelenlegi kategóriaoszlopot hagyd figyelmen kívül.
-2. Ha a munkamenetben nincs termékexport, a munka elején kérd el. Terméket, termékkódot soha ne találj ki.
+2. Ha a munkamenetben nincs termékexport: a termékek a Google Ads Shopping-adataiból is lekérhetők (Windsor.ai, google_ads, mezők: product_item_id, product_title; 1–2 éves időszak, darabolva). Ez a Google-ben hirdetett termékkör – jelezd, hogy nem feltétlenül teljes, és kérd el a teljes exportot is. Terméket, termékkódot soha ne találj ki; a generátor leáll, ha egy termékkód nincs a forrásban.
 3. Válogasd ki az összes terméket, amely az adott főkategória témájába tartozik (terméknév, márka, leírás alapján) – akkor is, ha az éles oldalon most egészen máshol van.
 4. Rendelj minden releváns terméket a javasolt kategóriá(k)hoz. Egy termék több kategóriába is mehet, ha több keresési szándékot is kiszolgál (pl. kis LED: LED-ág és Palántanevelő LED). Jelöld, melyik az elsődleges, és melyik a másodlagos kategóriája.
 5. Termék illeszkedése: Erős – a termék a kategória fő terméktípusa; Laza – kiegészítő, vagy más felhasználású, de a kategória vásárlója is keresi.

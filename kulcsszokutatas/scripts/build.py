@@ -63,6 +63,21 @@ ext = wb.create_sheet('Bővítés – rokon területek')
 old = wb.create_sheet(globals().get('OLD_SHEET', 'Régi kategóriák'))
 allws = wb.create_sheet('Összes kulcsszó')
 
+# --- termék-hozzárendelés (opcionális: PRODUCTS a konfigurációban, products.json az adatmappában)
+CAT_PRODUCTS, PROD_ROWS = {}, []
+if 'PRODUCTS' in globals():
+    PRODDB = json.load(open(KP + '/products.json', encoding='utf8'))
+    for skus, primary, secondary, fit, note in PRODUCTS:
+        for sku in skus.split():
+            if sku not in PRODDB:
+                raise SystemExit('HIÁNYZÓ TERMÉKKÓD: ' + sku)
+            name = PRODDB[sku]['name']
+            PROD_ROWS.append((sku, name, primary, ', '.join(secondary), fit, PRODDB[sku]['seen'], note))
+            CAT_PRODUCTS.setdefault(primary, []).append((sku, name, 'Elsődleges', fit, note))
+            for s in secondary:
+                CAT_PRODUCTS.setdefault(s, []).append((sku, name, 'Másodlagos', fit, note))
+FIT_FILL = {'Erős': 'S', 'Laza': 'L', 'Más főkategória': 'LN'}
+
 # --- kategória-lapok + összes kulcsszó sorok
 all_rows = []
 for cat in CATS:
@@ -95,7 +110,15 @@ for cat in CATS:
     last = 6 + len(rows)
     ws.cell(last + 1, 2, 'Összesen (érdemes rá oldal = Igen):').font = bold10
     c = ws.cell(last + 1, 3, f'=SUMIFS(C7:C{last},E7:E{last},"Igen")'); c.font = bold10; c.number_format = '#,##0'
-    widths(ws, [5, 38, 12, 22, 16, 30, 40])
+    plist = CAT_PRODUCTS.get(cat['name'], [])
+    if 'PRODUCTS' in globals():
+        ws.cell(last + 3, 1, f"Termékek a jelenlegi kínálatból: {len(plist)} db (elsődleges + másodlagos hozzárendelés; egy termék több kategóriában is szerepelhet)").font = bold10
+        header(ws, last + 4, ['#', 'Termékkód', 'Terméknév', 'Hozzárendelés', 'Illeszkedés', 'Megjegyzés'])
+        for j, (sku, name, role, fit, note) in enumerate(sorted(plist, key=lambda x: (x[2] != 'Elsődleges', x[0])), 1):
+            for c, val in enumerate([j, sku, name, role, fit, note], 1):
+                ws.cell(last + 4 + j, c, val).font = f10
+            fillrow(ws, last + 4 + j, 6, FIT_FILL.get(fit, 'LN'))
+    widths(ws, [5, 38, 12, 22, 16, 30, 40] if 'PRODUCTS' not in globals() else [5, 38, 60, 22, 16, 40, 40])
     ws.freeze_panes = 'A7'
 
 # --- Összes kulcsszó
@@ -202,7 +225,7 @@ if struct is not None:
         kot = {'S': 'Erősen kapcsolódik', 'L': 'Lazán kapcsolódik', 'LN': 'Lazán, más szándék', '-': '–'}[code]
         vals = [lvl, name, parent, fo or '–', vol(fo) if fo else None,
                 (f"=SUMIFS('Összes kulcsszó'!$E:$E,'Összes kulcsszó'!$A:$A,\"{cat}\",'Összes kulcsszó'!$G:$G,\"Igen\")" if cat else None),
-                kot, PRODUCT_COUNT_TEXT, typ, why]
+                kot, (len(CAT_PRODUCTS.get(cat or name, [])) if 'PRODUCTS' in globals() else PRODUCT_COUNT_TEXT) if lvl > 1 else (len({r[0] for r in PROD_ROWS if r[2] in {c['name'] for c in CATS}}) if 'PRODUCTS' in globals() else PRODUCT_COUNT_TEXT), typ, why]
         for c, val in enumerate(vals, 1):
             cell = struct.cell(i, c, val); cell.font = bold10 if lvl == 1 else f10
             cell.alignment = Alignment(wrap_text=True, vertical='top')
@@ -220,9 +243,17 @@ if struct is not None:
     prod['A1'] = 'Termékkínálat – termék–kategória hozzárendelés'; prod['A1'].font = title_font
     for j, line in enumerate(PRODUCT_NOTE, 2):
         prod.cell(j, 1, line).font = f10
-    header(prod, 2 + len(PRODUCT_NOTE) + 1, ['Termékkód', 'Terméknév', 'Gyártó', 'Gyűjtőtermék (GYUJTO…)', 'Elsődleges javasolt kategória',
-                                             'További kategóriák', 'Illeszkedés (Erős / Laza)', 'Megjegyzés'])
-    widths(prod, [16, 48, 18, 20, 30, 30, 18, 40])
+    h = 2 + len(PRODUCT_NOTE) + 1
+    header(prod, h, ['Termékkód', 'Terméknév', 'Elsődleges javasolt kategória', 'További kategóriák',
+                     'Illeszkedés', 'Utoljára a Google Shopping-feedben', 'Megjegyzés'])
+    for j, row in enumerate(sorted(PROD_ROWS, key=lambda x: (x[2], x[0])), h + 1):
+        for c, val in enumerate(row, 1):
+            cell = prod.cell(j, c, val); cell.font = f10; cell.alignment = Alignment(wrap_text=True, vertical='top')
+        fillrow(prod, j, 7, FIT_FILL.get(row[4], 'LN'))
+    if PROD_ROWS:
+        prod.auto_filter.ref = f'A{h}:G{h + len(PROD_ROWS)}'
+    prod.freeze_panes = f'A{h + 1}'
+    widths(prod, [13, 62, 32, 34, 16, 26, 44])
 
 # --- Gyártói
 mk = wb.create_sheet('Gyártói kulcsszavak')
