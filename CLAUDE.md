@@ -100,6 +100,12 @@ hozzáadás, 11 törlés, 22 gyűjtő), 2 termék leválasztása rossz szülőr�
   virágcserép 2400; „Speciális cserepek” névre 0 keresés (→ Air-Pot,
   ültetőzsák, szögletes, önöntöző), „Alátét” = csavaralátét (→ Cserépalátét),
   „Tálcák” = konyhai (→ Műanyag tálca, árapály asztal).
+- [x] 2026-10-14 **Cserép, tálca** (sandbox: Virágcserép; Speciális cserép,
+  szövetcserép; Tálca, alátét). Javaslat: Virágcserép (+ Nagy virágcserép
+  3. szint, szögletes = szűrő, liter = szűrő), Air-Pot cserép, Szövetcserép /
+  ültetőzsák, (Önöntöző), Cserépalátét, Műanyag tálca / árapály asztal.
+  Termékexport még hiányzik → a termékblokkok utólag. A build.py-ban
+  opcionális STRUCT → „Kategóriaszerkezet-ajánlás” + „Termékkínálat” lap.
 
 ## Döntések: kannibalizáció, több helyen szereplő kategóriák (2026-10-09)
 

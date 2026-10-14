@@ -57,6 +57,8 @@ def fillrow(ws, row, ncols, code):
 wb = Workbook()
 summ = wb.active
 summ.title = 'Összefoglaló'
+struct = wb.create_sheet('Kategóriaszerkezet-ajánlás') if 'STRUCT' in globals() else None
+prod = wb.create_sheet('Termékkínálat') if 'STRUCT' in globals() else None
 ext = wb.create_sheet('Bővítés – rokon területek')
 old = wb.create_sheet(globals().get('OLD_SHEET', 'Régi kategóriák'))
 allws = wb.create_sheet('Összes kulcsszó')
@@ -188,6 +190,39 @@ for i, (name, adv, _) in enumerate(EXT, 5):
     ext.cell(i, 1, name).font = f10; ext.cell(i, 2, adv).font = f10
     c = ext.cell(i, 3, f'=SUMIFS(C{start+1}:C{end},A{start+1}:A{end},A{i},E{start+1}:E{end},"<>Nem")'); c.font = f10; c.number_format = '#,##0'
 widths(ext, [38, 44, 16, 20, 16, 52])
+
+# --- Kategóriaszerkezet-ajánlás (opcionális: STRUCT a konfigurációban)
+if struct is not None:
+    struct['A1'] = STRUCT_TITLE; struct['A1'].font = title_font
+    struct['A2'] = STRUCT_SUB; struct['A2'].font = f10
+    header(struct, 4, ['Szint', 'Javasolt kategórianév (menünév)', 'Szülőkategória', 'Fő kulcsszó', 'Fő kulcsszó havi',
+                       'Klaszter összesen (érdemes = Igen)', 'Kulcsszó-kötődés', 'Termékek száma', 'Típus', 'Indoklás'])
+    struct.row_dimensions[4].height = 30
+    for i, (lvl, name, parent, fo, code, typ, why, cat) in enumerate(STRUCT, 5):
+        kot = {'S': 'Erősen kapcsolódik', 'L': 'Lazán kapcsolódik', 'LN': 'Lazán, más szándék', '-': '–'}[code]
+        vals = [lvl, name, parent, fo or '–', vol(fo) if fo else None,
+                (f"=SUMIFS('Összes kulcsszó'!$E:$E,'Összes kulcsszó'!$A:$A,\"{cat}\",'Összes kulcsszó'!$G:$G,\"Igen\")" if cat else None),
+                kot, PRODUCT_COUNT_TEXT, typ, why]
+        for c, val in enumerate(vals, 1):
+            cell = struct.cell(i, c, val); cell.font = bold10 if lvl == 1 else f10
+            cell.alignment = Alignment(wrap_text=True, vertical='top')
+        struct.cell(i, 5).number_format = struct.cell(i, 6).number_format = '#,##0'
+        if code in FILL: fillrow(struct, i, 10, code)
+    r = 5 + len(STRUCT) + 1
+    struct.cell(r, 1, 'Ami NE legyen önálló kategória').font = bold10
+    header(struct, r + 1, ['Téma', 'Kulcsszó', 'Havi keresés', 'Javaslat'])
+    for j, (topic, k, adv) in enumerate(NOT_CATS, r + 2):
+        for c, val in enumerate([topic, k, vol(k), adv], 1):
+            cell = struct.cell(j, c, val); cell.font = f10; cell.alignment = Alignment(wrap_text=True, vertical='top')
+        struct.cell(j, 3).number_format = '#,##0'
+    widths(struct, [7, 34, 26, 26, 12, 16, 20, 18, 22, 60])
+    struct.freeze_panes = 'A5'
+    prod['A1'] = 'Termékkínálat – termék–kategória hozzárendelés'; prod['A1'].font = title_font
+    for j, line in enumerate(PRODUCT_NOTE, 2):
+        prod.cell(j, 1, line).font = f10
+    header(prod, 2 + len(PRODUCT_NOTE) + 1, ['Termékkód', 'Terméknév', 'Gyártó', 'Gyűjtőtermék (GYUJTO…)', 'Elsődleges javasolt kategória',
+                                             'További kategóriák', 'Illeszkedés (Erős / Laza)', 'Megjegyzés'])
+    widths(prod, [16, 48, 18, 20, 30, 30, 18, 40])
 
 # --- Gyártói
 mk = wb.create_sheet('Gyártói kulcsszavak')
