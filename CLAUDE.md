@@ -56,6 +56,10 @@ hozzáadás, 11 törlés, 22 gyűjtő), 2 termék leválasztása rossz szülőr�
 
 ## Babylon (babylon-grow.eu) – kategóriafa megújítás
 
+- **Az ügynök teljes munkautasítása:** `kulcsszokutatas/MESTERPROMPT.md`
+  (Word: `Kulcsszokutato_ugynok_mesterprompt.docx`; forrás:
+  `scripts/mesterprompt_content.js`, generálás: `node scripts/mesterprompt_docx.js`).
+
 - Éles oldalon a régi fa, a sandboxban az új kategóriák; a felhasználó mondja
   meg, melyik kategóriával haladunk.
 - **Kulcsszóadat-forrás (működik):** Windsor.ai MCP → `google_ads` connector,
