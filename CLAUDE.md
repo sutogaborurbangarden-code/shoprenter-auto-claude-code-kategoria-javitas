@@ -69,6 +69,12 @@ hozzáadás, 11 törlés, 22 gyűjtő), 2 termék leválasztása rossz szülőr�
   (HU), `language: 1024` (magyar), `keyword_plan_network: GOOGLE_SEARCH`.
   (`keyword_text` NEM megy együtt az `avg_monthly_searches`-szel.)
 - Csak valós Kulcsszótervező-számot írunk be, kitalált számot soha.
+- **Az éles oldal jelenlegi kategóriáit NEM vesszük figyelembe** (félrevezetők,
+  épp ezt újítjuk). A kategóriaszerkezet- és névajánlás a **teljes
+  termékkínálat** (termékexport: termékkód + terméknév) és a kulcsszavak
+  alapján készül; minden javasolt kategóriának külön lapja van a beleillő
+  termékekkel (egy termék több kategóriába is mehet). Termékexport nélkül ezt
+  az elején el kell kérni. (2026-10-14)
 - Excel-minta: a pH/EC kutatás (`Babylon_pH_EC_kulcsszokutatas_top30`) –
   lapok: Összefoglaló, Bővítés – rokon területek, Összes kulcsszó,
   kategórialapok (#, kulcsszó, havi, kötődés, érdemes, terület, felhasználás),
