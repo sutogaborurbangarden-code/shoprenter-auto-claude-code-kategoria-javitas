@@ -77,6 +77,13 @@ if 'PRODUCTS' in globals():
             for s in secondary:
                 CAT_PRODUCTS.setdefault(s, []).append((sku, name, 'Másodlagos', fit, note))
 FIT_FILL = {'Erős': 'S', 'Laza': 'L', 'Más főkategória': 'LN'}
+# A Termékkínálat lapon a teljes kínálat szerepel: a be nem sorolt termékek is, külön jelöléssel
+ALL_PROD_ROWS = list(PROD_ROWS)
+if 'PRODUCTS' in globals():
+    assigned = {r[0] for r in PROD_ROWS}
+    for sku, rec in PRODDB.items():
+        if sku not in assigned:
+            ALL_PROD_ROWS.append((sku, rec['name'], '–', '', 'Nem tartozik ide', rec['seen'], 'Más főkategória terméke'))
 
 # --- kategória-lapok + összes kulcsszó sorok
 all_rows = []
@@ -246,12 +253,13 @@ if struct is not None:
     h = 2 + len(PRODUCT_NOTE) + 1
     header(prod, h, ['Termékkód', 'Terméknév', 'Elsődleges javasolt kategória', 'További kategóriák',
                      'Illeszkedés', 'Utoljára a Google Shopping-feedben', 'Megjegyzés'])
-    for j, row in enumerate(sorted(PROD_ROWS, key=lambda x: (x[2], x[0])), h + 1):
+    order = {'Erős': 0, 'Laza': 1, 'Más főkategória': 2, 'Nem tartozik ide': 3}
+    for j, row in enumerate(sorted(ALL_PROD_ROWS, key=lambda x: (order.get(x[4], 9), x[2], x[0])), h + 1):
         for c, val in enumerate(row, 1):
             cell = prod.cell(j, c, val); cell.font = f10; cell.alignment = Alignment(wrap_text=True, vertical='top')
-        fillrow(prod, j, 7, FIT_FILL.get(row[4], 'LN'))
-    if PROD_ROWS:
-        prod.auto_filter.ref = f'A{h}:G{h + len(PROD_ROWS)}'
+        if row[4] in FIT_FILL: fillrow(prod, j, 7, FIT_FILL[row[4]])
+    if ALL_PROD_ROWS:
+        prod.auto_filter.ref = f'A{h}:G{h + len(ALL_PROD_ROWS)}'
     prod.freeze_panes = f'A{h + 1}'
     widths(prod, [13, 62, 32, 34, 16, 26, 44])
 

@@ -229,6 +229,7 @@ PRODUCT_NOTE = [
  'Forrás: a Babylon Google Ads fiók Shopping-termékadatai (termékkód = Shopping item ID, terméknév = feed-cím), 2024-10-01 – 2026-10-14, összesen 1999 termék. A Shoprenter API és az éles oldal a felhőből továbbra sem érhető el.',
  'Figyelem: ez a Google-ben hirdetett termékkör, nem feltétlenül a teljes katalógus – a feedből kimaradt vagy soha nem hirdetett termékek itt nem szerepelnek. A gyártó és a gyűjtőtermék (GYUJTO…) adat a feedben nem érhető el.',
  'A „Más főkategória” sorok cserép / tálca jellegű termékek, amelyeknek a helye egy másik főkategóriában van (Palántanevelő, Mikrozöld, Hidro, Közegek, Esővízgyűjtő).',
+ 'A lapon a teljes termékkínálat szerepel (1999 termék): elöl a Cserép, tálca kategóriákba sorolt termékek (Erős, Laza), majd a más főkategóriába való cserép- / tálcajellegű termékek, végül „Nem tartozik ide” jelöléssel az összes többi. Az Illeszkedés oszlopra szűrve csak a besoroltak láthatók.',
 ]
 
 TITLE = 'babylon-grow.eu – Cserép, tálca főkategória kulcsszókutatás (Google Ads Kulcsszótervező, HU, magyar, 12 hó átlag)'
