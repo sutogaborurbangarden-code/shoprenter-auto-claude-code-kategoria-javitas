@@ -119,6 +119,14 @@ hozzáadás, 11 törlés, 22 gyűjtő), 2 termék leválasztása rossz szülőr�
   „Trimmelés” (szakállvágó → Trimmelő olló, trimmelő gép), „Csomagolás”
   (→ Vákuumzsák, simítózáras tasak). 108 termék besorolva.
   Windsor válaszformátum 2026-10-15 óta `data` (nem `result`) – merge.py kezeli.
+- [x] 2026-10-15 **Hidropónia, öntözés** (sandbox: Hidropóniás rendszer,
+  kiegészítő; Öntözés, vízpumpa, tartály; Vízszűrő, fordított ozmózis).
+  A sandbox-nevek jók (gyűjtőnevek) → 3. szintű bontás: Hidropóniás rendszer,
+  Levegőztető pumpa / porlasztókő, Agyaggolyó / hidrokosár, Tápoldat-adagoló /
+  vízhűtő; Automata öntözőrendszer, Vízpumpa, Víztartály, (Permetező).
+  95 termék besorolva. Az agyaggolyó a Közegek ágban is → egy céloldal.
+  Széles kerti / háztartási szavak (öntözőrendszer, vízszűrő…) = Laza / Nem,
+  hogy ne fújják fel a klaszter-összeget.
 
 ## Döntések: kannibalizáció, több helyen szereplő kategóriák (2026-10-09)
 
