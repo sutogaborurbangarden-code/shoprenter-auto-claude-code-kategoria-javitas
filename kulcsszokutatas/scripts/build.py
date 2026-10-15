@@ -228,11 +228,12 @@ if struct is not None:
     header(struct, 4, ['Szint', 'Javasolt kategórianév (menünév)', 'Szülőkategória', 'Fő kulcsszó', 'Fő kulcsszó havi',
                        'Klaszter összesen (érdemes = Igen)', 'Kulcsszó-kötődés', 'Termékek száma', 'Típus', 'Indoklás'])
     struct.row_dimensions[4].height = 30
+    OWN = {s[1] for s in STRUCT if s[0] > 1} | {c['name'] for c in CATS}
     for i, (lvl, name, parent, fo, code, typ, why, cat) in enumerate(STRUCT, 5):
         kot = {'S': 'Erősen kapcsolódik', 'L': 'Lazán kapcsolódik', 'LN': 'Lazán, más szándék', '-': '–'}[code]
         vals = [lvl, name, parent, fo or '–', vol(fo) if fo else None,
                 (f"=SUMIFS('Összes kulcsszó'!$E:$E,'Összes kulcsszó'!$A:$A,\"{cat}\",'Összes kulcsszó'!$G:$G,\"Igen\")" if cat else None),
-                kot, (len(CAT_PRODUCTS.get(cat or name, [])) if 'PRODUCTS' in globals() else PRODUCT_COUNT_TEXT) if lvl > 1 else (len({r[0] for r in PROD_ROWS if r[2] in {c['name'] for c in CATS}}) if 'PRODUCTS' in globals() else PRODUCT_COUNT_TEXT), typ, why]
+                kot, (len(CAT_PRODUCTS.get(cat or name, [])) if 'PRODUCTS' in globals() else PRODUCT_COUNT_TEXT) if lvl > 1 else (len({r[0] for r in PROD_ROWS if r[2] in OWN or any(s in OWN for s in r[3].split(', '))}) if 'PRODUCTS' in globals() else PRODUCT_COUNT_TEXT), typ, why]
         for c, val in enumerate(vals, 1):
             cell = struct.cell(i, c, val); cell.font = bold10 if lvl == 1 else f10
             cell.alignment = Alignment(wrap_text=True, vertical='top')
@@ -242,7 +243,7 @@ if struct is not None:
     struct.cell(r, 1, 'Ami NE legyen önálló kategória').font = bold10
     header(struct, r + 1, ['Téma', 'Kulcsszó', 'Havi keresés', 'Javaslat'])
     for j, (topic, k, adv) in enumerate(NOT_CATS, r + 2):
-        for c, val in enumerate([topic, k, vol(k), adv], 1):
+        for c, val in enumerate([topic, k or '–', vol(k) if k else None, adv], 1):
             cell = struct.cell(j, c, val); cell.font = f10; cell.alignment = Alignment(wrap_text=True, vertical='top')
         struct.cell(j, 3).number_format = '#,##0'
     widths(struct, [7, 34, 26, 26, 12, 16, 20, 18, 22, 60])

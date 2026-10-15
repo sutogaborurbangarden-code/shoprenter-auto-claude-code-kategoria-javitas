@@ -112,6 +112,13 @@ hozzáadás, 11 törlés, 22 gyűjtő), 2 termék leválasztása rossz szülőr�
   Termékek a Shopping-feedből besorolva (142 termék a javasolt kategóriákban,
   + más főkategóriába tartozók jelölve). Önöntöző: nincs termék → kimarad.
   build.py: opcionális STRUCT + PRODUCTS (products.json az adatmappában).
+- [x] 2026-10-15 **Növényfeldolgozás, afterharvest** (sandbox: Csomagolás;
+  Extrakció, kivonatolás; Fermentáció; Hasznos kiegészítők; Növényszárítás;
+  Trimmelés; Digitális mérleg, zsebmérleg). Félrevezető nevek: „Fermentáció”
+  (= savanyúság, 6600 → Páratartalom-szabályzó tasak / Boveda),
+  „Trimmelés” (szakállvágó → Trimmelő olló, trimmelő gép), „Csomagolás”
+  (→ Vákuumzsák, simítózáras tasak). 108 termék besorolva.
+  Windsor válaszformátum 2026-10-15 óta `data` (nem `result`) – merge.py kezeli.
 
 ## Döntések: kannibalizáció, több helyen szereplő kategóriák (2026-10-09)
 
