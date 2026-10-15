@@ -144,6 +144,16 @@ hozzáadás, 11 törlés, 22 gyűjtő), 2 termék leválasztása rossz szülőr�
   ≤1,44 / >1,44 m²; szettek másodlagosan méret szerint is). Erős: fényvisszaverő
   fólia 390, palántanevelő sátor 110. „polc” → „felfüggesztő” (nincs polc
   termék). „homebox” 140 = Telekom-zaj. 159 termék.
+- [x] 2026-10-15 **LED növényvilágítás** (sandbox: LED 0-100W / 100-400W /
+  400+W; Növénylámpa izzók – HPS, MH, CMH; Speciális LED; Függesztők és
+  időzítők; LED growbox szettek) → `led_config.py`. Keresés: növénynevelő
+  lámpa 880, növény lámpa 720, növénylámpa 480 (= kis / hobbi lámpa); wattra
+  ~10/hó → navigációs. Időkapcsoló a legnagyobb klaszter (időzítő kapcsoló
+  1900). HID-ág: trafó + reflektor is ide („HPS, MH, CMH izzó, trafó,
+  reflektor”, 116 termék). „Speciális” → „UV, IR és kiegészítő LED” + új
+  „LED növénynevelő izzó, csíptethető lámpa” (Sansi). Új: „LED tápegység,
+  kábel, vezérlő”. LED growbox szett = navigációs, céloldal a Growbox ágban.
+  Mars Hydro / Spider Farmer = versenytárs, nem célozni. 320 termék.
 - [x] 2026-10-15 **Termesztő közeg** (sandbox: Palántaföld; Kertészeti
   kókuszrost, kókusztégla; Kertészeti kőzetgyapot; Kertészeti perlit,
   vermikulit, agyaggolyó). Hiányzik: **Virágföld** (2900; a Plagron földek)
