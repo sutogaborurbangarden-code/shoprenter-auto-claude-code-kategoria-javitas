@@ -127,6 +127,15 @@ hozzáadás, 11 törlés, 22 gyűjtő), 2 termék leválasztása rossz szülőr�
   95 termék besorolva. Az agyaggolyó a Közegek ágban is → egy céloldal.
   Széles kerti / háztartási szavak (öntözőrendszer, vízszűrő…) = Laza / Nem,
   hogy ne fújják fel a klaszter-összeget.
+- [x] 2026-10-15 **Aktív szénszűrő, légtechnika** (sandbox: Aktív Szénszűrő
+  csőventilátorhoz ↳ Ventilátor vezérlő; Szagsemlegesítő és ózongenerátor;
+  Csőventilátor és elszívó ventilátor; Keringető ventilátor growboxba;
+  Légtechnikai cső, idom, csőrögzítő; Klímaszabályozás…; CO2) →
+  `legtechnika_config.py`. A legnagyobb keresés a klímán van (páramentesítő
+  9900, párásító 5400, páratartalom mérő 1600), nem a szénszűrőn (210) →
+  Klíma 3. szint: Párásító / Páramentesítő / Hő- és páratartalom-mérő (új).
+  Ventilátor-vezérlő → a Csőventilátor alá. Ózongenerátor 6600, de 1 termék
+  (bővítési lehetőség). Légcsatorna 320 (a „légtechnikai cső” 0). 458 termék.
 - [x] 2026-10-15 **Termesztő közeg** (sandbox: Palántaföld; Kertészeti
   kókuszrost, kókusztégla; Kertészeti kőzetgyapot; Kertészeti perlit,
   vermikulit, agyaggolyó). Hiányzik: **Virágföld** (2900; a Plagron földek)
