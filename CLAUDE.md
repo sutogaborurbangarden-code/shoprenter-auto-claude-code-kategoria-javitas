@@ -127,6 +127,12 @@ hozzáadás, 11 törlés, 22 gyűjtő), 2 termék leválasztása rossz szülőr�
   95 termék besorolva. Az agyaggolyó a Közegek ágban is → egy céloldal.
   Széles kerti / háztartási szavak (öntözőrendszer, vízszűrő…) = Laza / Nem,
   hogy ne fújják fel a klaszter-összeget.
+- [x] 2026-10-15 **Termesztő közeg** (sandbox: Palántaföld; Kertészeti
+  kókuszrost, kókusztégla; Kertészeti kőzetgyapot; Kertészeti perlit,
+  vermikulit, agyaggolyó). Hiányzik: **Virágföld** (2900; a Plagron földek)
+  → új kategória; Palántaföld (1300) csak 2 termék → „Virágföld, palántaföld”.
+  Új: Talajjavító, gilisztahumusz. Agyaggolyó céloldala INNEN (Hidro: csak
+  kereszt-link). 71 termék besorolva.
 
 ## Döntések: kannibalizáció, több helyen szereplő kategóriák (2026-10-09)
 
