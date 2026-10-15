@@ -136,6 +136,14 @@ hozzáadás, 11 törlés, 22 gyűjtő), 2 termék leválasztása rossz szülőr�
   Klíma 3. szint: Párásító / Páramentesítő / Hő- és páratartalom-mérő (új).
   Ventilátor-vezérlő → a Csőventilátor alá. Ózongenerátor 6600, de 1 termék
   (bővítési lehetőség). Légcsatorna 320 (a „légtechnikai cső” 0). 458 termék.
+- [x] 2026-10-15 **Growbox, termesztő sátor** (sandbox: Kis / Közepes / Nagy
+  growbox; Palántanevelő és propagátor sátor; Komplett growbox szett;
+  Growbox kiegészítő – háló, tálca, polc; Fényvisszaverő fólia) →
+  `growbox_config.py`. Nagyon kicsi volumen (termesztősátor 90, growbox 70);
+  méretre ~10/hó → a méret-kategóriák navigációsak (alapterület: ≤0,64 /
+  ≤1,44 / >1,44 m²; szettek másodlagosan méret szerint is). Erős: fényvisszaverő
+  fólia 390, palántanevelő sátor 110. „polc” → „felfüggesztő” (nincs polc
+  termék). „homebox” 140 = Telekom-zaj. 159 termék.
 - [x] 2026-10-15 **Termesztő közeg** (sandbox: Palántaföld; Kertészeti
   kókuszrost, kókusztégla; Kertészeti kőzetgyapot; Kertészeti perlit,
   vermikulit, agyaggolyó). Hiányzik: **Virágföld** (2900; a Plagron földek)
