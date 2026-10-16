@@ -144,20 +144,17 @@ hozzáadás, 11 törlés, 22 gyűjtő), 2 termék leválasztása rossz szülőr�
   ≤1,44 / >1,44 m²; szettek másodlagosan méret szerint is). Erős: fényvisszaverő
   fólia 390, palántanevelő sátor 110. „polc” → „felfüggesztő” (nincs polc
   termék). „homebox” 140 = Telekom-zaj. 159 termék.
-- [x] 2026-10-15 **LED növényvilágítás** (sandbox: LED 0-100W / 100-400W /
-  400+W; Növénylámpa izzók – HPS, MH, CMH; Speciális LED; Függesztők és
-  időzítők; LED growbox szettek) → `led_config.py`. Keresés: növénynevelő
-  lámpa 880, növény lámpa 720, növénylámpa 480 (= kis / hobbi lámpa); wattra
-  ~10/hó → navigációs. Időkapcsoló a legnagyobb klaszter (időzítő kapcsoló
-  1900). HID-ág: trafó + reflektor is ide („HPS, MH, CMH izzó, trafó,
-  reflektor”, 116 termék). „Speciális” → „UV, IR és kiegészítő LED” + új
-  „LED növénynevelő izzó, csíptethető lámpa” (Sansi). Új: „LED tápegység,
-  kábel, vezérlő”. LED growbox szett = navigációs, céloldal a Growbox ágban.
-  Mars Hydro / Spider Farmer = versenytárs, nem célozni. 320 termék.
-  **2026-10-16: újraépítve az élő kínálatra** (felhasználói kérés: „az éles
-  oldalon lévő termékkínálatot vedd alapul”): `ACTIVE_ONLY` a configban →
-  csak az elmúlt 30 napban a Shopping-feedben szereplő termék kap kategóriát
-  (207 élő; 118 „Nem aktív” a lap végén). HID-ág 116 → 55 élő termék.
+- [x] 2026-10-16 **LED növényvilágítás – 2. változat** → `led_config.py`
+  (az 1. változat a git-történetben: 22241cc / 2281939). Felhasználói kérés:
+  **NE vegyük figyelembe sem az éles, sem a sandbox alkategóriákat** – csak
+  termékkínálat + kulcsszó + kapcsolódó területek. Szerkezet terméktípus és
+  szándék szerint: LED termesztőlámpa (teljes spektrumú növénynevelő led lámpa
+  320; watt = szűrő); Szobanövény-lámpa, LED növénynevelő izzó (növénynevelő
+  lámpa 880, növény lámpa 720); LED sáv, LED cső (növény led szalag 90);
+  UV, IR spektrum-kiegészítő; Nátrium- és fémhalogén lámpa (HID, 3. szintű
+  szűrő); Időkapcsoló, világításvezérlő (időzítő kapcsoló 1900); Lámpa-
+  kiegészítő (tápegység, kábel, függesztő) + PAR-mérő. „LED panel” 2400 =
+  háztartási → névben kerülendő. Élő kínálat (ACTIVE_ONLY): 191 termék.
 - **Élő kínálat = Shopping-feed, elmúlt 30 nap** (az éles oldal továbbra is
   403 a felhőből). A `seen` mező a `babylon_termekek_shopping_feed.json`-ban
   2026-10-16-án frissítve (1525 élő termék). build.py: opcionális

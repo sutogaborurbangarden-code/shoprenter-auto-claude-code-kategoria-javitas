@@ -6,6 +6,7 @@ mozgásérzékelős lámpatest;4400;HIGH
 spot lámpatest;4400;HIGH
 spot lámpatestek;4400;HIGH
 lávalámpa;3600;HIGH
+led panel;2400;HIGH
 e 27 led izzó;1900;HIGH
 e27 led izzó;1900;HIGH
 e27 led izzók;1900;HIGH
@@ -48,6 +49,7 @@ okosizzó;480;HIGH
 spider farmer;480;HIGH
 sínes lámpatest;480;HIGH
 uv lámpa körömhöz;480;HIGH
+fényvisszaverő fólia;390;HIGH
 infravörös lámpa;390;HIGH
 kristály lámpák;390;HIGH
 led neoncső;390;HIGH
@@ -64,6 +66,7 @@ digitális időkapcsoló;320;HIGH
 edison izzólámpa;320;HIGH
 eglo lámpabolt;320;HIGH
 hydromars;320;HIGH
+led cső;320;HIGH
 mars hydro;320;HIGH
 möbelix mennyezeti lámpa;320;HIGH
 napelemes kerti világítás;320;HIGH
@@ -106,6 +109,7 @@ mennyezeti lámpa fürdőszoba;210;HIGH
 obi növény lámpa;210;HIGH
 pepco éjjeli lámpa;210;HIGH
 solar kerti lámpa;210;HIGH
+terrárium lámpa;210;HIGH
 uv led;210;HIGH
 uvc lámpa;210;HIGH
 uvled;210;HIGH
@@ -113,6 +117,7 @@ uvled;210;HIGH
 digitális időkapcsoló beállítása;170;HIGH
 fénycsöves lámpatest;170;HIGH
 fénycsöves lámpák;170;HIGH
+fénymérő;170;HIGH
 gx53 izzó;170;HIGH
 ikea csiptetős lámpa;170;HIGH
 jysk mennyezeti lámpa;170;HIGH
@@ -186,6 +191,7 @@ kültéri lámpa obi;110;HIGH
 lampa bar;110;LOW
 led armatúra 120 cm;110;HIGH
 led dimmer kapcsoló;110;HIGH
+led panel lámpa;110;HIGH
 led szalag stukkó;110;HIGH
 led trafó 12v;110;HIGH
 led világítás konyhába;110;HIGH
@@ -195,7 +201,9 @@ növény lámpa praktiker;110;HIGH
 növénytermesztő lámpa;110;HIGH
 obi függőlámpa;110;HIGH
 obi kerti lámpa;110;HIGH
+okos virágcserép;110;HIGH
 oszlop lámpa;110;HIGH
+smart garden;110;HIGH
 süllyesztett lámpa;110;HIGH
 t5 led fénycső;110;HIGH
 uv körömlámpa;110;HIGH
@@ -468,6 +476,7 @@ ledes növény lámpa;40;HIGH
 ledes szekrényvilágítás;40;HIGH
 ledes villanykörte;40;HIGH
 legrand fényerőszabályzós kapcsoló;40;HIGH
+luxmérő;40;HIGH
 lámpa akkumulátor;40;HIGH
 lámpa növényeknek;40;HIGH
 lámpa tartó;40;HIGH
@@ -797,6 +806,7 @@ olcsó led izzó;20;HIGH
 orchidea lámpa;20;HIGH
 osram led bar;20;HIGH
 palántanevelő led;20;HIGH
+par mérő;20;HIGH
 pedikűr uv lámpa;20;HIGH
 philips hue dim;20;HIGH
 philips infra izzó 150w;20;HIGH
