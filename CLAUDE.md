@@ -206,6 +206,21 @@ keresési szándékok”.
   ágból link); Perlit, vermikulit; **Agyaggolyó önálló** (880, céloldal);
   Talaj- és közegjavító (guanó, gilisztahumusz, enzimek – enzim céloldal Tápok).
 
+### 2026-10-16: új főkategóriák (csak főkategória-név + élő kínálat + kulcsszó)
+- **Mikrozöld termesztés** (`mikrozold_config.py`, hub, 67 élő): Mikrozöld mag
+  (3. szint ahol van saját keresés: Brokkoli 720, Retek 590, Borsó / napraforgó
+  260, Zsázsa – kerti zsázsa 480); Csíráztató (1300, edény 1000, üveg 720);
+  Mikrozöld tálca (70); Termesztőlap (kenderrost lap 70); Mikrozöld LED =
+  navigációs. Mikrozöld 880, mikrozöld termesztés 210. Búzafű (720) / csíra
+  (1000) = egészség-szándék → tartalom. Lucerna vetőmag / bíborhere = LN.
+- **Chillitermesztés** (`chili_config.py`, hub, 34 élő): saját termék csak a
+  7 chili vetőmag (chili paprika mag 210, jalapeno mag 170); a Palántanevelés,
+  Tápoldat (paprika tápoldat 140), Föld / cserép, Lámpa = szűrt kereszt-lista
+  más ágakból (Más főkategória + másodlagos). Termesztésre kicsi a keresés
+  (70 / 40); tartalom: legerősebb paprika 320, chili paprika fajtái 260.
+  Bővítés: Carolina Reaper mag (260), chili palánta (210). „chilimag” =
+  versenytárs webshop (X). Menünév-javaslat: „Chili termesztés”.
+
 ## Döntések: kannibalizáció, több helyen szereplő kategóriák (2026-10-09)
 
 - Egy termék, egy URL, több kategória-hozzárendelés; duplikált termék nincs.
