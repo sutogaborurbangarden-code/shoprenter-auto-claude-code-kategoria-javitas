@@ -64,7 +64,10 @@ old = wb.create_sheet(globals().get('OLD_SHEET', 'Régi kategóriák'))
 allws = wb.create_sheet('Összes kulcsszó')
 
 # --- termék-hozzárendelés (opcionális: PRODUCTS a konfigurációban, products.json az adatmappában)
-CAT_PRODUCTS, PROD_ROWS = {}, []
+# ACTIVE_ONLY (opcionális): csak az élő kínálat (products.json 'seen' == ACTIVE_ONLY) kap kategóriát;
+# a többi besorolt termék „Nem aktív” jelöléssel a Termékkínálat lap végére kerül.
+CAT_PRODUCTS, PROD_ROWS, INACTIVE_ROWS = {}, [], []
+ACTIVE = globals().get('ACTIVE_ONLY')
 if 'PRODUCTS' in globals():
     PRODDB = json.load(open(KP + '/products.json', encoding='utf8'))
     for skus, primary, secondary, fit, note in PRODUCTS:
@@ -72,6 +75,9 @@ if 'PRODUCTS' in globals():
             if sku not in PRODDB:
                 raise SystemExit('HIÁNYZÓ TERMÉKKÓD: ' + sku)
             name = PRODDB[sku]['name']
+            if ACTIVE and PRODDB[sku]['seen'] != ACTIVE:
+                INACTIVE_ROWS.append((sku, name, primary, ', '.join(secondary), 'Nem aktív', PRODDB[sku]['seen'], 'Nincs az élő kínálatban – ' + note))
+                continue
             PROD_ROWS.append((sku, name, primary, ', '.join(secondary), fit, PRODDB[sku]['seen'], note))
             CAT_PRODUCTS.setdefault(primary, []).append((sku, name, 'Elsődleges', fit, note))
             for s in secondary:
@@ -80,9 +86,10 @@ FIT_FILL = {'Erős': 'S', 'Laza': 'L', 'Más főkategória': 'LN'}
 # A Termékkínálat lapon a teljes kínálat szerepel: a be nem sorolt termékek is, külön jelöléssel
 ALL_PROD_ROWS = list(PROD_ROWS)
 if 'PRODUCTS' in globals():
-    assigned = {r[0] for r in PROD_ROWS}
+    assigned = {r[0] for r in PROD_ROWS + INACTIVE_ROWS}
+    ALL_PROD_ROWS += INACTIVE_ROWS
     for sku, rec in PRODDB.items():
-        if sku not in assigned:
+        if sku not in assigned and (not ACTIVE or rec['seen'] == ACTIVE):
             ALL_PROD_ROWS.append((sku, rec['name'], '–', '', 'Nem tartozik ide', rec['seen'], 'Más főkategória terméke'))
 
 # --- kategória-lapok + összes kulcsszó sorok
@@ -258,7 +265,7 @@ if struct is not None:
     h = 2 + len(PRODUCT_NOTE) + 1
     header(prod, h, ['Termékkód', 'Terméknév', 'Elsődleges javasolt kategória', 'További kategóriák',
                      'Illeszkedés', 'Utoljára a Google Shopping-feedben', 'Megjegyzés'])
-    order = {'Erős': 0, 'Laza': 1, 'Más főkategória': 2, 'Nem tartozik ide': 3}
+    order = {'Erős': 0, 'Laza': 1, 'Más főkategória': 2, 'Nem tartozik ide': 3, 'Nem aktív': 4}
     for j, row in enumerate(sorted(ALL_PROD_ROWS, key=lambda x: (order.get(x[4], 9), x[2], x[0])), h + 1):
         for c, val in enumerate(row, 1):
             cell = prod.cell(j, c, val); cell.font = f10; cell.alignment = Alignment(wrap_text=True, vertical='top')

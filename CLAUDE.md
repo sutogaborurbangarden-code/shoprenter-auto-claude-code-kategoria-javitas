@@ -154,6 +154,14 @@ hozzáadás, 11 törlés, 22 gyűjtő), 2 termék leválasztása rossz szülőr�
   „LED növénynevelő izzó, csíptethető lámpa” (Sansi). Új: „LED tápegység,
   kábel, vezérlő”. LED growbox szett = navigációs, céloldal a Growbox ágban.
   Mars Hydro / Spider Farmer = versenytárs, nem célozni. 320 termék.
+  **2026-10-16: újraépítve az élő kínálatra** (felhasználói kérés: „az éles
+  oldalon lévő termékkínálatot vedd alapul”): `ACTIVE_ONLY` a configban →
+  csak az elmúlt 30 napban a Shopping-feedben szereplő termék kap kategóriát
+  (207 élő; 118 „Nem aktív” a lap végén). HID-ág 116 → 55 élő termék.
+- **Élő kínálat = Shopping-feed, elmúlt 30 nap** (az éles oldal továbbra is
+  403 a felhőből). A `seen` mező a `babylon_termekek_shopping_feed.json`-ban
+  2026-10-16-án frissítve (1525 élő termék). build.py: opcionális
+  `ACTIVE_ONLY = 'az elmúlt 30 napban'` a configban.
 - [x] 2026-10-15 **Termesztő közeg** (sandbox: Palántaföld; Kertészeti
   kókuszrost, kókusztégla; Kertészeti kőzetgyapot; Kertészeti perlit,
   vermikulit, agyaggolyó). Hiányzik: **Virágföld** (2900; a Plagron földek)

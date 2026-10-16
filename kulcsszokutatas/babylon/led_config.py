@@ -67,7 +67,7 @@ lumatek 600w|S|G'''),
  dict(name='HPS, MH, CMH izzó, trafó, reflektor', sheet='4 HPS MH CMH', fo='nátrium lámpa',
       area='Hagyományos (HID) növényvilágítás – nátrium, fémhalogén, CMH izzó, trafó (előtét), reflektor, Cool Tube, lámpaszett',
       place='2. szint (sandbox: „Növénylámpa izzók – HPS, MH, CMH”) – a trafó és a reflektor is ide kerüljön (eddig nincs helye a fában)',
-      note='Csökkenő, kis keresés: nátrium lámpa 90, e40 foglalat 70, cmh 50, nátriumlámpa 40, fémhalogén izzó 40. A HID-termékek száma viszont nagy (~120) – 3. szintű bontás javasolt: Izzó; Trafó; Reflektor, Cool Tube; Lámpaszett.',
+      note='Csökkenő, kis keresés: nátrium lámpa 90, e40 foglalat 70, cmh 50, nátriumlámpa 40, fémhalogén izzó 40. A HID-termékek száma viszont nagy (61 élő termék) – 3. szintű bontás javasolt: Izzó; Trafó; Reflektor, Cool Tube; Lámpaszett.',
       kws='''nátrium lámpa|S|F
 nátriumlámpa|S|S
 nátriumgőz lámpa|S|E
@@ -222,15 +222,17 @@ NOT_CATS = [
  ('E27 LED izzó (általános)', 'e27 led izzó', 'Háztartási izzó – csak a növénynevelő izzó ide.'),
  ('Kompakt fénycső', 'kompakt fénycső', 'Csak 3 Agrolite CFL – a HID-ágban, szűrőként.'),
 ]
+ACTIVE_ONLY = 'az elmúlt 30 napban'
 PRODUCT_NOTE = [
- 'Forrás: a Babylon Google Ads fiók Shopping-termékadatai (termékkód = Shopping item ID, terméknév = feed-cím), 2024-10-01 – 2026-10-14, összesen 1999 termék. A Shoprenter API és az éles oldal a felhőből nem érhető el.',
+ 'ÉLŐ KÍNÁLAT ALAPJÁN (2026-10-16): csak azok a termékek kaptak kategóriát, amelyek az elmúlt 30 napban (2026-09-16 – 10-15) szerepeltek a Babylon Google Shopping-feedben (1525 termék) – ez az éles oldal aktuális kínálata. A korábban hirdetett, de most nem élő termékek „Nem aktív” jelöléssel a lap végén vannak (megmaradt javasolt kategóriával, ha visszakerülnek).',
+ 'Forrás: a Babylon Google Ads fiók Shopping-termékadatai (termékkód = Shopping item ID, terméknév = feed-cím). Az éles oldal (babylon-grow.eu) és a Shoprenter API a felhőből nem érhető el.',
  'Figyelem: ez a Google-ben hirdetett termékkör, nem feltétlenül a teljes katalógus. A gyártó és a gyűjtőtermék (GYUJTO…) adat a feedben nem érhető el.',
  'Teljesítmény szerinti besorolás a terméknévben szereplő watt alapján (0–100 W / 100–400 W / 400 W felett). Ahol a névben nincs watt (SANlight EVO 1.5 lámpák és szettek, hortiONE, Cosmorrow készletek), becsült érték – ellenőrizendő; GRO3357 és GRO3846 teljesítménye ismeretlen.',
  'A LED growbox szettek elsődlegesen itt (navigációs), másodlagosan a Growbox ág „Komplett growbox szett” kategóriájában – a céloldal ott van.',
 ]
 
 TITLE = 'babylon-grow.eu – LED növényvilágítás főkategória kulcsszókutatás (Google Ads Kulcsszótervező, HU, magyar, 12 hó átlag)'
-SOURCE = 'Forrás: Babylon Adwords fiók (867-850-6485) Kulcsszótervező (Windsor.ai-on át), lekérdezve: 2026-10-15. Hely: Magyarország, nyelv: magyar, hálózat: Google Keresés. A számok kerekített lépcsős havi átlagok (a 10-es érték a legkisebb lépcső). Termékek: Google Shopping-feed (1999 termék).'
+SOURCE = 'Forrás: Babylon Adwords fiók (867-850-6485) Kulcsszótervező (Windsor.ai-on át), lekérdezve: 2026-10-15. Hely: Magyarország, nyelv: magyar, hálózat: Google Keresés. A számok kerekített lépcsős havi átlagok (a 10-es érték a legkisebb lépcső). Termékek: az éles kínálat = Google Shopping-feed, elmúlt 30 nap (1525 termék).'
 NOTES = [
  'Megjegyzés: a klaszter-összeg átfedéseket tartalmazhat (pl. elírt és ékezet nélküli változatok, amelyeket a Google külön sorban is mutat).',
  'Fő megállapítás: a keresők nem wattban, hanem „növénynevelő lámpa” (880), „növény lámpa” (720), „növényeknek lámpa” (720), „növénylámpa” (480) formában keresnek – ez a kis / hobbi lámpa szándéka. A nagy teljesítményű LED-re kicsi a keresés (led grow 70), a watt-szerinti bontás navigációs.',
