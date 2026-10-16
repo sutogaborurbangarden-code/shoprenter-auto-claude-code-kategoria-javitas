@@ -2,25 +2,33 @@
 ventilátor;18100;HIGH
 páramentesítő;9900;HIGH
 ózongenerátor;6600;HIGH
+légtisztító;5400;HIGH
 párásító;5400;HIGH
 párásító készülék;4400;HIGH
 álló ventilátor;4400;HIGH
 állóventilátor;4400;HIGH
 mennyezet ventilátor;3600;HIGH
 párátlanító;3600;HIGH
+szellőzés;2900;HIGH
 asztali ventilátor;2400;HIGH
+flexibilis cső;2400;HIGH
+flexibiliscső;2400;HIGH
+légtisztító készülék;2400;HIGH
 oszlop ventilátor;2400;HIGH
 páramentesítő gép;2400;HIGH
 páramentesítő készülék;2400;HIGH
 párátlanító készülék;2400;HIGH
 torony ventilátor;2400;HIGH
 toronyventilátor;2400;HIGH
+visszacsapó szelep;2400;HIGH
+xiaomi légtisztító;2400;HIGH
 co2;1900;LOW
 csőbilincs;1900;HIGH
 elszívó ventilátor;1900;HIGH
 elszívóventilátor;1900;HIGH
 duct tape;1600;HIGH
 euronics ventilátor;1600;HIGH
+philips légtisztító;1600;HIGH
 páratartalom mérő;1600;HIGH
 páratartalommérő;1600;HIGH
 párásító vivamax;1600;HIGH
@@ -30,6 +38,7 @@ vivamax párásító;1600;HIGH
 ceresit stop pára;1300;HIGH
 kandalló ventilátor;1300;HIGH
 kézi ventilátor;1300;HIGH
+légtechnika;1300;HIGH
 obi ventilátor;1300;HIGH
 padló ventilátor;1300;HIGH
 padlóventilátor;1300;HIGH
@@ -40,17 +49,22 @@ szellőzőventilátor;1300;HIGH
 xiaomi párásító;1300;HIGH
 co2 palack;1000;HIGH
 csőventilátor;1000;HIGH
+dyson légtisztító;1000;HIGH
 hideg pàràsító;1000;HIGH
 ipari ventilátor;1000;HIGH
 lidl páramentesítő;1000;HIGH
 ozon generátor;1000;HIGH
 páramentesítő trotec;1000;HIGH
+szellőztető rendszer;1000;HIGH
+szellőztetőrendszer;1000;HIGH
 trotec páramentesítő;1000;HIGH
 ultrahangos párásító;1000;HIGH
 ózon generator;1000;HIGH
 dyson ventilátor;880;HIGH
 fali ventilátor;880;HIGH
 fürdőszoba ventilátor;880;HIGH
+hangtompító;880;LOW
+légtechnika cső;880;HIGH
 nyak ventilátor;880;HIGH
 nyaki ventilátor;880;HIGH
 philips párásító;880;HIGH
@@ -59,6 +73,7 @@ alu ragasztószalag;720;HIGH
 alumínium ragasztószalag;720;HIGH
 hidegpárásító;720;HIGH
 lapát nélküli ventilátor;720;HIGH
+légtechnikai bolt;720;HIGH
 midea páramentesítő;720;HIGH
 praktiker ventilátor;720;HIGH
 párátlanító gép;720;HIGH
@@ -68,7 +83,9 @@ vizes ventilátor;720;HIGH
 ózóngenerátor;720;HIGH
 auchan ventilátor;590;HIGH
 fűtés ventilátor;590;HIGH
+hepa szűrős légtisztító;590;HIGH
 legjobb páramentesítő;590;HIGH
+legtisztito;590;HIGH
 levegő párásító;590;HIGH
 léghűtő ventilátor;590;HIGH
 paramentesito;590;HIGH
@@ -77,8 +94,13 @@ plafon ventilátor;590;HIGH
 párologtató készülék;590;HIGH
 ózongenerátor fertőtlenítés;590;HIGH
 higrométer;480;HIGH
+hővisszanyerős szellőztető rendszer;480;HIGH
 hűtő fűtő ventilátor;480;HIGH
 hűtő fűtő ventilátorok;480;HIGH
+ikea legtisztito;480;HIGH
+ikea légtisztító;480;HIGH
+legjobb légtisztító;480;HIGH
+legjobb légtisztítók;480;HIGH
 napelemes ventilátor;480;HIGH
 páraérzékelős csőventilátor;480;HIGH
 páraérzékelős ventilátor;480;HIGH
@@ -89,10 +111,15 @@ xiaomi páramentesítő;480;HIGH
 digitális termosztát;390;HIGH
 easy home páramentesítő;390;HIGH
 euronics paramentesito;390;HIGH
+flexibilis gázcső;390;HIGH
+flexibilis lefolyócső;390;HIGH
+flexibilis vízcső;390;HIGH
 fürdőszobai elszívó;390;HIGH
 kültéri ventilátor;390;HIGH
+légtisztító xiaomi;390;HIGH
 nagy teljesítményű ventilátor;390;HIGH
 szagtalanító spray;390;HIGH
+szellőztető;390;HIGH
 szellőző cső;390;HIGH
 szénszűrős páraelszívó;390;HIGH
 ózongenerátor mire jó;390;HIGH
@@ -102,15 +129,19 @@ computherm q3rf vezeték nélküli digitális szobatermosztát;320;HIGH
 csőventilátor 100;320;HIGH
 elektromos páramentesítő;320;HIGH
 euronics párásító;320;HIGH
+flexibilis cső méretek;320;HIGH
 ipari páramentesítő;320;HIGH
 klarstein leghuto;320;HIGH
 kültéri mennyezeti ventilátor;320;HIGH
+levoit légtisztító;320;HIGH
 légcsatorna;320;HIGH
 nyakba akaszthato ventilátor;320;HIGH
 nyakba akasztható ventilátor;320;HIGH
 párásító gép;320;HIGH
 radiális ventilátor;320;HIGH
 sencor ventilátor;320;HIGH
+xiaomi légtisztító szűrő;320;HIGH
+zepter légtisztító;320;HIGH
 àlló ventillàtor;320;HIGH
 ózongenerátor tisztítás;320;HIGH
 axiális ventilátor;260;HIGH
@@ -119,14 +150,18 @@ co2 reduktor;260;HIGH
 computherm q7 digitális programozható szobatermosztát;260;HIGH
 computherm q7rf termosztát használati útmutató;260;MEDIUM
 csőventilátor praktiker;260;HIGH
+daikin légtisztító;260;HIGH
 dyras páramentesítő;260;HIGH
 fali hűtő fűtő ventilátor;260;HIGH
 falra szerelhető ventilátor;260;HIGH
+flexibilis bekötőcső;260;HIGH
+fürdőszoba szellőzés;260;HIGH
 helios csőventilátor;260;HIGH
 hideg párásító készülék;260;HIGH
 hordozható ventilátor;260;HIGH
 kis ventilátor;260;HIGH
 legjobb ventilátor;260;HIGH
+obi flexibilis cső;260;HIGH
 páramentesítő fürdőszobába;260;HIGH
 q3rf termosztát;260;HIGH
 rcool termosztát;260;HIGH
@@ -148,6 +183,7 @@ computherm q7rf vezeték nélküli programozható digitális szobatermosztát;21
 csoventillator;210;HIGH
 csőventilátorok;210;HIGH
 diffúzor párásító;210;HIGH
+electrolux légtisztító;210;HIGH
 fisher páramentesítő;210;HIGH
 füstelszívó ventilátor;210;HIGH
 hausmeister ventilátor;210;HIGH
@@ -155,14 +191,22 @@ hűtő ventilátor szobai;210;HIGH
 ionizátor;210;HIGH
 ipari elszívó ventilátor;210;HIGH
 konyhai elszívó ventilátor;210;HIGH
+kutyapisi szagtalanítás;210;HIGH
+központi szellőztető rendszer;210;HIGH
 kültéri párásító ventilátor;210;HIGH
 lakás páramentesítő készülék;210;HIGH
 léghűtő euronics;210;HIGH
+légtechnika idomok;210;HIGH
+légtechnikai idom;210;HIGH
+légtisztító berendezés;210;HIGH
+légtisztító por ellen;210;HIGH
 légtisztító párásító;210;HIGH
+légtisztító teszt;210;MEDIUM
 midea párátlanitó;210;HIGH
 midea párátlanító;210;HIGH
 olcsó ventilátor;210;HIGH
 orion ventilátor;210;HIGH
+pince szellőzés;210;HIGH
 praktiker mennyezeti ventilátor;210;HIGH
 páramentesítő euronics;210;HIGH
 páramentesítő légtisztító;210;HIGH
@@ -180,6 +224,9 @@ turbo ventilátor;210;HIGH
 ventilátor akció;210;HIGH
 ventilátor orion;210;HIGH
 ventilátor ár;210;HIGH
+xiaomi legtisztito;210;HIGH
+3 4 flexibilis cső;170;HIGH
+3 8 flexibilis cső;170;HIGH
 axiál ventilátor;170;HIGH
 boneco parasito;170;HIGH
 boneco párásító;170;HIGH
@@ -187,17 +234,29 @@ co2 érzékelő;170;HIGH
 csendes szobai ventilátor;170;HIGH
 csendes ventilátor;170;HIGH
 digitális csőtermosztát;170;HIGH
+flexibilis gázcső 2m;170;HIGH
+flexibilis gázcső 3m;170;HIGH
 gree páramentesítő;170;HIGH
+gáz bekötőcső;170;HIGH
+gáz flexibilis cső;170;HIGH
 halk ventilátor;170;HIGH
+hepa légtisztító;170;HIGH
 home ventilátor;170;HIGH
 klíma ventilátor;170;HIGH
 koenic ventilátor;170;HIGH
 kémény ventilátor;170;HIGH
 legjobb ózongenerátor;170;HIGH
 levegőtisztító és párásító;170;HIGH
+légtechnika bolt;170;HIGH
+légtisztitó;170;HIGH
+légtisztító hepa;170;HIGH
+légtisztító philips;170;HIGH
+légtisztító vélemények;170;HIGH
 mire jó az ózongenerátor;170;HIGH
 nagy ventilátor;170;HIGH
 padló ventilátor 50 cm;170;HIGH
+philips legtisztito;170;HIGH
+philips légtisztító szűrő;170;HIGH
 páraelszívó szénszűrő;170;HIGH
 szagtalanító;170;HIGH
 szén dioxid érzékelő;170;HIGH
@@ -206,8 +265,12 @@ ventilátor auchan;170;HIGH
 ventilátor olcson;170;HIGH
 ventilátor olcsón;170;HIGH
 ventilátor álló;170;HIGH
+visszacsapó szelep beépítése szivattyúhoz;170;HIGH
 álló ventilátor euronics;170;HIGH
 ózongenerátor autóba;170;HIGH
+1 col flexibilis cső;140;HIGH
+1 colos flexibilis cső;140;HIGH
+1 visszacsapó szelep;140;HIGH
 aktív szén szűrőbetét;140;HIGH
 aktívszén szűrő;140;HIGH
 aktívszén szűrőbetét;140;HIGH
@@ -225,13 +288,20 @@ fém csőventilátor;140;HIGH
 fém ventilátor;140;HIGH
 hidegpárásító készülék;140;HIGH
 hordozható mini ventilátor;140;HIGH
+hovisszanyeros szellozteto rendszer arak;140;HIGH
 hő és páratartalom mérő;140;HIGH
+hővisszanyerő szellőzés;140;HIGH
+hővisszanyerős szellőztető rendszer ár;140;HIGH
 kanlux ventilátor;140;HIGH
 klarstein ventilátor;140;HIGH
 legjobb mennyezeti ventilátor;140;HIGH
 legjobb oszlopventilátor;140;HIGH
 legjobb párásító;140;HIGH
+legtechnika;140;HIGH
 léghűtő jégakkuval;140;HIGH
+légtechnika kft;140;MEDIUM
+légtechnika szerelés;140;MEDIUM
+légtisztító és páramentesítő egyben;140;HIGH
 légtisztító és párásító;140;HIGH
 okos ventilátor;140;HIGH
 oszlopos ventilátorok;140;HIGH
@@ -248,16 +318,23 @@ sencor páramentesítő;140;HIGH
 szagelszívó szénszűrő;140;HIGH
 szagelszívó szűrő;140;HIGH
 szagszűrő maszk;140;HIGH
+szellőztető rendszerek;140;HIGH
+szellőző rendszer;140;HIGH
 tesco ventilátor ár;140;HIGH
 ventilátor asztali;140;HIGH
 ventilátor vizes;140;HIGH
 ventilátor vízpermettel;140;HIGH
+visszacsapo szelep;140;HIGH
+visszacsapó szelep működése;140;MEDIUM
 vivamax ultrahangos parasito;140;HIGH
 vivamax ultrahangos párásító;140;HIGH
 álló ventilátor ár;140;HIGH
+1 2 flexibilis cső;110;HIGH
+3 4 visszacsapó szelep;110;HIGH
 asztali ventilátor euronics;110;HIGH
 computherm q7rf programozás;110;LOW
 computherm termosztát q3;110;HIGH
+csapbekötő flexibilis cső;110;HIGH
 digitális szobatermosztát;110;HIGH
 dyson léghűtő;110;HIGH
 dyson párásító;110;HIGH
@@ -265,6 +342,10 @@ electrolux páramentesítő;110;HIGH
 elektromos ventillátor;110;HIGH
 extra csendes ventilátor;110;HIGH
 fali hűtő ventilátor;110;HIGH
+flexibilis cső csaptelephez;110;HIGH
+flexibilis locsoló cső;110;HIGH
+flexibilis légtechnikai cső;110;HIGH
+flexicső;110;HIGH
 fürdőszoba ventilátor bekötése;110;HIGH
 fürdőszobai páramentesítő;110;HIGH
 gorenje páramentesítő;110;HIGH
@@ -278,6 +359,11 @@ klíma páramentesítő funkció jele;110;LOW
 konnektoros termosztát;110;HIGH
 levegő párásító készülék;110;HIGH
 lidl páramentesítő ára;110;HIGH
+lux légtisztító;110;HIGH
+légtechnika webáruház;110;HIGH
+légtisztito;110;HIGH
+légtisztító gép;110;HIGH
+légtisztító hepa szűrővel;110;HIGH
 meleg párásító;110;HIGH
 nemes ventilator;110;MEDIUM
 nemes ventilátor;110;MEDIUM
@@ -295,15 +381,23 @@ rádió frekvenciás termosztát;110;HIGH
 silvercrest páramentesítő;110;HIGH
 silvercrest páramentesítő lidl vélemények;110;HIGH
 szagelszívó ventilátor;110;HIGH
+szellőztető gép;110;HIGH
+szellőztető rendszer utólag;110;HIGH
+szellőzés jó áron;110;HIGH
 teraszhűtő ventilátor;110;HIGH
 ventilátor fordulatszám szabályzó;110;HIGH
 ventilátor távirányító;110;MEDIUM
 ventilátor távirányítós;110;MEDIUM
 ventilátorok tesco;110;HIGH
+visszacsapó szelep 3 4;110;HIGH
 whirlpool páramentesítő;110;HIGH
 álló ventilátor akció;110;HIGH
 ózongenerátor lakásba;110;HIGH
 ózongenerátor penész ellen;110;HIGH
+1 flexibilis cső;90;HIGH
+110 visszacsapó szelep;90;HIGH
+5 4 visszacsapó szelep;90;HIGH
+air technik légtechnikai kft;90;LOW
 aldi paratlanito;90;HIGH
 aldi párátlanító;90;HIGH
 asztali léghűtő;90;HIGH
@@ -314,14 +408,24 @@ computherm q3 rf termosztát használati útmutató;90;MEDIUM
 computherm q3 termosztát;90;HIGH
 computherm q3rf termosztát használati útmutató;90;MEDIUM
 computherm szobatermosztát;90;HIGH
+csaptelep flexibilis cső;90;HIGH
 cső elszívó ventilátor;90;HIGH
 csőventilátor 125;90;HIGH
 dehumidifier páramentesítő;90;HIGH
 digitális hőfokszabályzó;90;HIGH
 digitális termosztát gázkazánhoz;90;HIGH
+dyson legtisztito;90;HIGH
+dyson légtisztító ár;90;HIGH
 emag ventilátor;90;HIGH
 erős ventilátor;90;HIGH
 fisher párátlanító;90;HIGH
+flexibilis csatornacső;90;HIGH
+flexibilis cső 3 4;90;HIGH
+flexibilis gázcső 5m;90;HIGH
+fojtó visszacsapó szelep;90;HIGH
+golyós visszacsapó szelep;90;HIGH
+hővisszanyerős szellőzés;90;HIGH
+hőálló flexibilis cső;90;HIGH
 ipari páramentesítő bérlés;90;HIGH
 ipari ventilátor eladó;90;HIGH
 kezi ventilátor;90;HIGH
@@ -329,9 +433,13 @@ klíma páramentesítő funkció;90;MEDIUM
 legjobb torony ventilátor;90;HIGH
 légbefúvó ventilátor;90;HIGH
 légmosó;90;HIGH
+légtechnikai szaküzlet;90;HIGH
+műanyag visszacsapó szelep;90;HIGH
+ozonos légtisztító;90;HIGH
 paratartalom mero;90;HIGH
 pc ventilátor vezérlő;90;HIGH
 philips nanocloud párásító;90;HIGH
+praktiker flexibilis cső;90;HIGH
 páramentesítő doboz;90;HIGH
 páramentesítő penész ellen;90;HIGH
 páraérzékelős elszívó;90;HIGH
@@ -347,28 +455,42 @@ spal ventilátor;90;HIGH
 szabályozható csőventilátor;90;HIGH
 szabályozható ventilátor;90;HIGH
 szagtalanító készülék;90;HIGH
+szivattyú visszacsapó szelep;90;HIGH
 szűkítő idom;90;HIGH
 tesco álló ventilátor;90;HIGH
 ultrahangos hideg párásító;90;HIGH
 ultrahangos hideg párásító készülék gyerekszobába;90;HIGH
 ultrahangos párologtató;90;HIGH
 ultrahangos párásító készülék;90;HIGH
+utólagos szellőztető rendszer;90;HIGH
 ventilátor párásító;90;HIGH
 ventilátor torony;90;HIGH
 ventilátoros párásító;90;HIGH
+visszacsapó szelep 1;90;HIGH
+visszacsapó szelep szivattyúhoz;90;HIGH
 vortice ventilátor;90;HIGH
 vízpermetes ventilátor;90;HIGH
 álló ventilátor tesco;90;HIGH
+ózon légtisztító;90;HIGH
+ózongenerátor légtisztító;90;HIGH
+ózonos légtisztító;90;HIGH
+1 2 col flexibilis cső;70;HIGH
+1 colos visszacsapó szelep;70;HIGH
+acélbordás flexibilis cső;70;HIGH
 adszorpciós páramentesítő;70;HIGH
+aereco szellőző használati utasítás;70;HIGH
 akciós ventilátor;70;HIGH
 aktív szenes szűrő;70;HIGH
 asztali ventilator;70;HIGH
+büdös hűtő szagtalanítása;70;HIGH
 centrifugál ventilátor;70;HIGH
 ceresit stop pára velemenyek;70;HIGH
+cipő szagtalanítás házilag;70;HIGH
 computherm q3 termosztát bekötése;70;HIGH
 computherm q7 termosztát;70;HIGH
 computherm termosztát q3rf;70;HIGH
 computherm termosztát q7;70;HIGH
+csatorna visszacsapó szelep 110;70;HIGH
 csendes oszlopventilátor;70;HIGH
 csendes álló ventilátor;70;HIGH
 csö ventilátor;70;HIGH
@@ -385,10 +507,23 @@ euronics párátlanító;70;HIGH
 fali elszívó ventilátor;70;HIGH
 fali páramentesítő;70;HIGH
 fisher f dry301ae4;70;HIGH
+flexibilis cso;70;HIGH
+flexibilis cső 1 2;70;HIGH
+flexibilis cső 1 2 3 8;70;HIGH
+flexibilis cső bojlerhez;70;HIGH
+flexibilis cső fűtéshez;70;HIGH
+flexibilis cső toldó;70;HIGH
+flexibilis füstcső;70;HIGH
 fordulatszám szabályzós ventilátor;70;HIGH
+fúrt kút visszacsapó szelep;70;HIGH
 fűtő hűtő ventilátor;70;HIGH
+gravitációs szellőzés;70;HIGH
+gáz flexibilis cső méretek;70;HIGH
+helios szellőztető;70;HIGH
 hidegparasito;70;HIGH
+higrosztát;70;HIGH
 home by somogyi ventilátor;70;HIGH
+homlokzati hőszigetelés szellőző;70;HIGH
 hűtő fűtő ventilátor obi;70;HIGH
 ipari csőventilátor;70;HIGH
 jysk párásító;70;HIGH
@@ -398,15 +533,28 @@ klarstein párásító;70;HIGH
 kombinált légtisztító és párásító;70;HIGH
 kompresszoros páramentesítő;70;HIGH
 korel páramentesítő;70;HIGH
+kpe visszacsapó szelep;70;HIGH
 kültéri fali ventilátor;70;HIGH
 legjobb álló ventilátor;70;HIGH
 levegő ionizátor;70;HIGH
+levegő visszacsapó szelep;70;HIGH
+levegőtisztító gép;70;HIGH
 levoit párásító;70;HIGH
+lux levegőtisztító;70;HIGH
+lux légtisztító ár;70;HIGH
+lábszelep szűrő;70;HIGH
 légcsatorna cső;70;HIGH
 légcsatorna idomok;70;HIGH
+légtisztító dyson;70;HIGH
+légtisztító lakásba;70;HIGH
+légtisztító penész ellen;70;HIGH
 légtisztító páramentesítő;70;HIGH
+légtisztító szálló por ellen;70;HIGH
+légtisztító árukereső;70;HIGH
+légtisztító és páramentesítő;70;HIGH
 mennyezeti ventilátor teraszra;70;HIGH
 midea mddg 20den7;70;LOW
+mosogató csaptelep flexibilis cső;70;HIGH
 nagy teljesítményű álló ventilátor;70;HIGH
 okos párásító;70;HIGH
 orion allo ventilátor;70;HIGH
@@ -416,6 +564,9 @@ oszlop ventilátor euronics;70;HIGH
 oszlop ventilátor obi;70;HIGH
 oszlop ventilátor velemenyek;70;HIGH
 philips 2 in 1 párásító légtisztító;70;HIGH
+porszűrő légtisztító;70;HIGH
+pvc visszacsapó szelep;70;HIGH
+pvc visszacsapó szelep 32;70;HIGH
 páramentesitő készülékek;70;HIGH
 páramentesítő 20l nap;70;HIGH
 páramentesítő 50 m2;70;HIGH
@@ -432,11 +583,16 @@ párásítók;70;HIGH
 párátlanito;70;HIGH
 párátlanító fürdőszobába;70;HIGH
 q8rf termosztát;70;HIGH
+rowenta légtisztító;70;HIGH
+rugós visszacsapó szelep;70;HIGH
+samsung légtisztító;70;HIGH
+sencor légtisztító;70;HIGH
 sencor álló ventilátor;70;HIGH
 somogyi ventilátor;70;HIGH
 sonoflex;70;HIGH
 star light páramentesítő;70;HIGH
 szoba párásító készülék;70;HIGH
+szobai légtisztító;70;HIGH
 szobai párásító készülék;70;HIGH
 szobatermosztát computherm;70;HIGH
 tangenciális ventilátor;70;HIGH
@@ -452,10 +608,16 @@ ventilátor árukereső;70;HIGH
 vents elszívó ventilátor;70;HIGH
 vents páraérzékelős ventilátor;70;HIGH
 vents páraérzékelős ventilátor bekötése;70;HIGH
+vissza csapó szelep;70;HIGH
+visszacsapó szelep 1 2;70;HIGH
 vízhűtéses ventilátor;70;HIGH
 xiaomi diffúzor;70;HIGH
 álló ventilátor obi;70;HIGH
+1 2 visszacsapó szelep;50;HIGH
+100 mm flexibilis műanyag cső;50;HIGH
+2 visszacsapó szelep;50;HIGH
 230v ventilátor fordulatszám szabályzó;50;HIGH
+3 8 flexibilis cső toldó;50;HIGH
 aktív szén szűrő filter;50;HIGH
 aluflex cső;50;HIGH
 aroma diffúzor euronics;50;HIGH
@@ -466,6 +628,7 @@ auchan párásító;50;HIGH
 automata párásító;50;HIGH
 beurer párásító;50;HIGH
 blauberg ventilátor;50;HIGH
+bojler flexibilis cső;50;HIGH
 boneco légtisztító;50;HIGH
 ceresit stop pára készülék;50;HIGH
 co2 zsák;50;HIGH
@@ -474,13 +637,18 @@ computherm q3rf bekötése;50;MEDIUM
 computherm q3rf termosztát;50;HIGH
 computherm q8rf termosztát használati útmutató;50;MEDIUM
 computherm rf termosztát;50;HIGH
+családi ház szellőztető rendszer ár;50;HIGH
+csap flexibilis cső;50;HIGH
 csendes asztali ventilátor;50;HIGH
 csendes elszívó ventilátor;50;HIGH
 csőventilátor bekötése;50;HIGH
+czégel légtechnika kft;50;LOW
 daewoo ventilátor;50;HIGH
 digitális hőmérő páratartalom mérő;50;MEDIUM
 dyras d20 5250 wifi párátlanító;50;HIGH
+dyson hűtő fűtő légtisztító;50;HIGH
 dyson hűtő fűtő ventilátor;50;HIGH
+dyson légtisztító szűrő;50;HIGH
 easy home paramentesito;50;HIGH
 electrolux párátlanító;50;HIGH
 elektromos páramentesítő készülék;50;HIGH
@@ -489,45 +657,81 @@ euronics álló ventilátor;50;HIGH
 fali ventilátor obi;50;HIGH
 fekete ventilátor;50;HIGH
 fekete álló ventilátor;50;HIGH
+flexi gázcső;50;HIGH
+flexibilis cső wc tartályhoz;50;HIGH
+flexibilis lefolyócső 50;50;HIGH
+flexibilis műanyag cső;50;HIGH
 flexibilis szellőző cső;50;HIGH
+flexibilis szennyvízcső;50;HIGH
+flexibilis vízcső méretek;50;HIGH
+fürdőszoba szellőztető rendszer;50;HIGH
+fűtés visszacsapó szelep;50;HIGH
 gorenje párásító;50;HIGH
 gree klíma párátlanítás;50;LOW
 gree klíma vezérlő panel;50;HIGH
 gree párátlanító;50;HIGH
+gázcső flexibilis;50;HIGH
+helios hővisszanyerős szellőztető;50;HIGH
 hideg párásító készülék gyerekszobába;50;HIGH
 hidegpárásító gyerekeknek;50;HIGH
+hidraulika visszacsapó szelep;50;HIGH
 home fali hűtő fűtő ventilátor;50;HIGH
 honeywell ventilátor;50;HIGH
+hovivent légtechnikai kft;50;LOW
 huzatfokozó ventilátor;50;HIGH
+ház szellőztető rendszer;50;HIGH
 hő ventilátor;50;HIGH
 hőmérő páratartalom mérő;50;HIGH
 hűtő fűtő fali ventilátor;50;HIGH
 hűtőventillátor 220v;50;HIGH
 időzítős ventilátor;50;HIGH
+ionizáló légtisztító;50;HIGH
 ipari fali ventilátor;50;HIGH
+ipari légtechnika;50;MEDIUM
 ipari mennyezeti ventilátor;50;HIGH
 ipari padló ventilátor;50;HIGH
 ipari párásító;50;HIGH
 istálló ventilátor;50;HIGH
 kandalló ventilátor működése;50;HIGH
 kanlux ventilátor bekötése;50;MEDIUM
+karcher légtisztító;50;HIGH
+kerti szivattyú visszacsapó szelep;50;HIGH
+klammer légtechnika kft;50;LOW
+klarstein légtisztító;50;HIGH
 klarstein mennyezeti ventilátor;50;HIGH
 klíma párátlanító funkció;50;MEDIUM
+kuka szagtalanítása;50;HIGH
+kuka szagtalanító;50;HIGH
 kémény huzatfokozó ventilátor;50;HIGH
+központi hővisszanyerős szellőztető ár;50;HIGH
+kút visszacsapó szelep;50;HIGH
 legjobb hidegpárásító;50;HIGH
 levegő szagtalanító;50;HIGH
+lindab légtechnika;50;MEDIUM
 légpárásító;50;HIGH
+légtechnika visszacsapó szelep;50;HIGH
+légtechnikai szűrők;50;HIGH
+légtisztító 100m2;50;HIGH
+légtisztító dohányfüst ellen;50;HIGH
+légtisztító ikea;50;HIGH
+légtisztító készülék xiaomi;50;HIGH
+légtisztító szagtalanító;50;HIGH
+légtisztító szűrő;50;HIGH
+légtisztító ventilátor;50;HIGH
+légtisztítók;50;HIGH
 master páramentesítő;50;HIGH
 mennyezeti ventilátor praktiker;50;HIGH
 midea klíma vezérlő panel;50;MEDIUM
 mini asztali ventilátor;50;HIGH
 mobil ventilátor;50;HIGH
 momert parasito;50;HIGH
+műanyag flexibilis cső;50;HIGH
 műanyag légcsatorna;50;HIGH
 nagy teljesítményű páramentesítő;50;HIGH
 nagy teljesítményű párásító;50;HIGH
 nyakba akasztós ventilátor;50;HIGH
 obi álló ventilátor;50;HIGH
+okos légtisztító;50;HIGH
 olcsó álló ventilátor;50;HIGH
 oneconcept léghűtő;50;HIGH
 orion hordozható léghűtő párologtató;50;MEDIUM
@@ -540,6 +744,8 @@ paramentesito gep;50;HIGH
 paratlanito gep;50;HIGH
 parologtato gyerekeknek;50;HIGH
 praktiker álló ventilátor;50;HIGH
+pvc visszacsapó szelep 40;50;HIGH
+pvc visszacsapó szelep 50;50;HIGH
 páragyűjtő gép;50;HIGH
 páramentesítés;50;HIGH
 páramentesítő 100m2;50;HIGH
@@ -557,6 +763,7 @@ párátlanító légtisztító;50;HIGH
 retro ventilátor;50;HIGH
 rossmann párásító;50;HIGH
 rowenta ventilátor;50;HIGH
+rozsdamentes flexibilis cső;50;HIGH
 salty air ultrahangos párásító 3in1;50;HIGH
 sencor oszlopventilátor;50;HIGH
 sencor párásító használati utasítás;50;MEDIUM
@@ -566,14 +773,22 @@ silvercrest párátlanító;50;HIGH
 sonoflex cső;50;HIGH
 starlight páramentesítő;50;HIGH
 sunon ventilátor;50;HIGH
+szellőztető berendezés;50;HIGH
+szellőztető berendezések;50;HIGH
 szellőztető cső;50;HIGH
+szellőztető rendszer házilag;50;HIGH
+szellőztető rendszer ár;50;HIGH
 szellőző ventilátor bekötése;50;HIGH
 szoba párologtató;50;HIGH
 szoba párásítása házilag;50;HIGH
 szénszűrős szagelszívó;50;HIGH
 szívó ventilátor;50;HIGH
+szőnyeg szagtalanítás házilag;50;HIGH
+szőnyeg szagtalanítása házilag;50;HIGH
 tesco asztali ventilátor;50;HIGH
+tesla légtisztító;50;HIGH
 too ventilátor;50;HIGH
+trotec légtisztító;50;HIGH
 trotec párátlanító;50;HIGH
 távirányítós álló ventilátor;50;HIGH
 ufesa ventilátor;50;HIGH
@@ -589,23 +804,38 @@ ventilátor jysk;50;HIGH
 ventilátor nyakba;50;HIGH
 ventilátor szabályzó;50;HIGH
 ventilátor teraszra;50;HIGH
+visszacsapó szelep jelölése;50;LOW
+visszacsapó szelep rajz;50;LOW
 vivamax hidegpárásító;50;HIGH
 vivamax salty air premium;50;HIGH
+víz bekötőcső;50;HIGH
 víztartályos ventilátor;50;HIGH
+winix légtisztító;50;HIGH
 xiaomi hidegpárásító;50;HIGH
 xiaomi okos ventilátor;50;HIGH
 xiaomi párologtató;50;HIGH
+xiaomi smart air purifier 4 pro légtisztító;50;HIGH
+zepter légtisztító szűrő;50;HIGH
 álló ventilátor auchan;50;HIGH
 álló ventilátor jófogás;50;MEDIUM
 álló ventilátor olcsón;50;HIGH
 álló ventilátor praktiker;50;HIGH
+1 2 3 8 flexibilis cső;40;HIGH
+110 flexibilis cső;40;HIGH
+2 colos visszacsapó szelep;40;HIGH
+50 mm flexibilis cső;40;HIGH
+ablak szellőző takaró;40;HIGH
+aereco szellőző működése;40;MEDIUM
+air wolf légtisztító;40;HIGH
 akkumulátoros kézi ventilátor;40;HIGH
 ardes ventilátor;40;HIGH
 asztali mini ventilátor;40;HIGH
 asztali ventilátor auchan;40;HIGH
 asztali ventilátor praktiker;40;HIGH
 automata páramentesítő;40;HIGH
+automata szellőztető rendszer;40;HIGH
 automata zsalus ventilátor;40;HIGH
+autós légtisztító;40;HIGH
 awenta ventilator;40;HIGH
 awenta ventilátor;40;HIGH
 axiális ventilátor jelentése;40;HIGH
@@ -616,36 +846,65 @@ bestbyte ventilátor;40;HIGH
 co2 generátor;40;HIGH
 co2 nyomáscsökkentő;40;HIGH
 co2 szenzor;40;HIGH
+colos flexibilis cső;40;HIGH
+colos visszacsapó szelep;40;HIGH
 computherm q3 rf bekötése;40;MEDIUM
 computherm q3 termosztát beállítása;40;MEDIUM
 computherm q3rf vevőegység;40;HIGH
+csappantyús visszacsapó szelep;40;HIGH
 daewoo toronyventilátor;40;HIGH
 digitális hőfokszabályzó termosztát;40;HIGH
 digitális páramérő;40;HIGH
 dyras párátlanító;40;HIGH
+dyson légtisztító vélemények;40;HIGH
 ebm papst ventilátor;40;HIGH
 elektromos páramentesítő fürdőszobába;40;HIGH
 elszívó ventilátor 80 mm;40;HIGH
 elszívó ventilátor visszacsapó szeleppel;40;HIGH
 emag paramentesito;40;MEDIUM
 emag páramentesítő;40;MEDIUM
+esperanza légtisztító;40;HIGH
 esperanza párásító;40;HIGH
 fali ventilator;40;HIGH
 falra szerelhető páramentesítő;40;HIGH
+fekete flexibilis cső;40;HIGH
+flexi lefolyócső;40;HIGH
+flexi vízcső;40;HIGH
+flexibilis aluminium cső;40;HIGH
 flexibilis alumínium cső;40;HIGH
+flexibilis cső 1 col;40;HIGH
+flexibilis cső 100mm;40;HIGH
+flexibilis cső 3 8;40;HIGH
+flexibilis cső obi;40;HIGH
+flexibilis cső vízhez;40;HIGH
+flexibilis elszívó cső;40;HIGH
+flexibilis elszívócső;40;HIGH
+flexibilis fűtéscső;40;HIGH
+flexibilis gázcső tömítés;40;HIGH
+flexibilis hőálló cső;40;HIGH
 flexibilis légcsatorna;40;HIGH
+flexibilis pvc cső;40;HIGH
+fél colos flexibilis cső;40;HIGH
 fürdő ventilátor;40;HIGH
 fürdőszoba párátlanító;40;HIGH
 fürdőszobai ventilátor 80 mm;40;HIGH
+gebo flexibilis cső;40;HIGH
+golyós lábszelep;40;HIGH
 gree klíma páramentesítő funkció;40;LOW
 halk csőventilátor;40;HIGH
 hausmeister ventilátor tesco;40;HIGH
+hepa szűrős légtisztító vélemények;40;HIGH
 hideg párásítás házilag;40;HIGH
 hidegpárásító euronics;40;HIGH
 home páramentesítő;40;HIGH
 home álló ventilátor;40;HIGH
 hydromat párásító;40;MEDIUM
+hőcserélő szellőztető rendszer;40;HIGH
+hőcserélős szellőztető rendszer;40;HIGH
+hővisszanyerős szellőztető rendszer kiépítése;40;HIGH
 hűsítő ventilátor;40;MEDIUM
+inox flexibilis cső;40;HIGH
+ionizátoros légtisztító;40;HIGH
 ipari páramentesítő eladó;40;HIGH
 ipari szellőztető ventilátor;40;HIGH
 ipari ventilator;40;HIGH
@@ -655,24 +914,48 @@ klíma ventilátor funkció;40;LOW
 klíma ventilátor motor;40;HIGH
 klíma vezérlő panel javítás;40;MEDIUM
 kn2 ventilátor;40;HIGH
+lakás szagtalanítása;40;HIGH
+lakás szellőztető;40;HIGH
+lefolyó visszacsapó szelep;40;HIGH
+legjobb légtisztító készülék;40;HIGH
+lg légtisztító;40;HIGH
+lindab légtechnika árlista;40;LOW
+lindab légtechnikai árlista;40;LOW
+légtechnika szigetelés;40;HIGH
+légtechnika tisztítás;40;MEDIUM
+légtechnika ventilátor;40;HIGH
+légtechnikai;40;HIGH
+légtechnikai elemek;40;HIGH
+légtisztító akció;40;HIGH
+légtisztító készülék vélemények;40;HIGH
+légtisztító állatszőr;40;HIGH
+légtisztító ár;40;HIGH
 légtisztító és párásító egyben;40;HIGH
 meleg levegő ventilátor;40;HIGH
 midea ventilátor;40;HIGH
 mini torony ventilátor;40;HIGH
 mini toronyventilátor;40;HIGH
 mire jó a hideg párásító;40;HIGH
+mire jó a légtisztító;40;HIGH
+mosógép visszacsapó szelep;40;HIGH
+nilan légtechnika kft;40;MEDIUM
 nord páramentesítő;40;HIGH
+nyújtható flexibilis cső;40;HIGH
 okos páramentesítő;40;HIGH
 oldalfali ventilátor;40;HIGH
 oszcilláló ventilátor;40;HIGH
 oszlop ventilator;40;MEDIUM
 oszlop ventilátor praktiker;40;HIGH
 oszlop ventilátor tesco;40;HIGH
+otthoni légtisztító;40;HIGH
 parasito arukereso;40;HIGH
 paratlanito keszulek;40;HIGH
 penész ellen páramentesítő;40;HIGH
 philips hidegpárásító;40;MEDIUM
+pneumatikus visszacsapó szelep;40;HIGH
 praktiker párásító;40;HIGH
+praktiker visszacsapó szelep;40;HIGH
+pvc visszacsapó szelep 110;40;HIGH
 páragyűjtő készülék;40;HIGH
 páramentesítő akció;40;HIGH
 páramentesítő ventilátor;40;HIGH
@@ -686,11 +969,17 @@ párátlanító xiaomi;40;HIGH
 radiális ventilátor 12v;40;HIGH
 robbanásbiztos ventilátor;40;HIGH
 rádiófrekvenciás szobatermosztát;40;HIGH
+réz visszacsapó szelep;40;HIGH
 salty air párásító;40;HIGH
 sencor asztali ventilátor;40;HIGH
 sencor hidegpárásító;40;HIGH
 sencor torony ventilátor;40;HIGH
 stilo ventilátor;40;HIGH
+szellozteto rendszer;40;HIGH
+szellőztető rendszer kiépítése;40;HIGH
+szellőzés kiépítése;40;HIGH
+szőnyeg szagtalanító;40;HIGH
+sárga flexibilis gázcső hőálló;40;HIGH
 sós párásító;40;HIGH
 termosztát computherm q7;40;MEDIUM
 termosztát q7;40;HIGH
@@ -712,21 +1001,44 @@ ventilátor lapát 40 cm;40;HIGH
 ventilátor plafon;40;HIGH
 ventilátor plafonra;40;HIGH
 ventilátorok obi;40;HIGH
+vezérelt visszacsapó szelep;40;HIGH
+visszacsapó;40;HIGH
+visszacsapó szelep 5 4;40;HIGH
 vivamax gyvh48 salty air premium párásító;40;HIGH
 vivamax párologtató;40;HIGH
 vivamax párásító tisztítása;40;LOW
 vivamax salty air compact;40;HIGH
 vizes hűtőventillátor;40;HIGH
 vizes ventilátor obi;40;HIGH
+víz visszacsapó szelep;40;HIGH
 vízpárás ventilátor;40;HIGH
+wc tartály flexibilis cső;40;HIGH
+wc visszacsapó szelep;40;HIGH
 wdh páramentesítő;40;HIGH
+wolf légtechnika;40;HIGH
+wolf szellőztető rendszer;40;HIGH
+xiaomi légtisztító vélemények;40;HIGH
 xiaomi párásító készülék;40;HIGH
 zsalus ventilátor;40;HIGH
 állványos ventilátor;40;HIGH
 ózonos szagtalanítás;40;HIGH
+1 visszacsapó szelep ár;30;HIGH
+100 as flexibilis cső;30;HIGH
+100 mm flexibilis cső;30;HIGH
+100mm flexibilis cső;30;HIGH
+110 es visszacsapó szelep;30;HIGH
+110 pvc visszacsapó szelep;30;HIGH
 125 csőventilátor;30;HIGH
+150 mm flexibilis cső;30;HIGH
+3 8 1 2 flexibilis cső;30;HIGH
+3 8 visszacsapó szelep;30;HIGH
+32 es flexibilis lefolyócső;30;HIGH
+5 4 flexibilis cső;30;HIGH
+50 es szennyvíz visszacsapó szelep;30;HIGH
+6 4 visszacsapó szelep;30;HIGH
 akciós álló ventilátor;30;HIGH
 akkumulátoros mini ventilátor;30;HIGH
+aktív szénszűrős légtisztító;30;HIGH
 aktívszenes légtisztító;30;HIGH
 aluminium flexibilis cső;30;HIGH
 aromaterápiás párásító;30;HIGH
@@ -735,8 +1047,11 @@ auchan álló ventilátor;30;HIGH
 axialis ventilátor;30;HIGH
 axiális csőventilátor;30;HIGH
 befúvó ventilátor eladó;30;HIGH
+bekötőcső 1 2;30;HIGH
+beurer légtisztító;30;HIGH
 beépített páramentesítő;30;HIGH
 beépíthető páramentesítő;30;HIGH
+blue air légtisztító;30;HIGH
 boneco ultrahangos párásító;30;HIGH
 ceresit aero 360 tabletta;30;HIGH
 co2 mérő műszer;30;HIGH
@@ -745,6 +1060,7 @@ computherm programozható termosztát;30;HIGH
 computherm q3 rf vevőegység;30;HIGH
 computherm q3rf termosztát beállítása;30;HIGH
 computherm q7rf termosztát;30;HIGH
+családi ház szellőztető rendszer;30;HIGH
 csendes páramentesítő;30;HIGH
 csőtermosztát digitális;30;HIGH
 digitalis termosztat;30;HIGH
@@ -756,6 +1072,7 @@ doboz ventilátor;30;HIGH
 dyras párásító;30;HIGH
 easy home párátlanító;30;MEDIUM
 eladó páramentesítő;30;HIGH
+electrolux legtisztito;30;HIGH
 elszivó ventilátor;30;HIGH
 euronics asztali ventilátor;30;HIGH
 euronics oszlopventilátor;30;HIGH
@@ -763,12 +1080,33 @@ falba építhető ventilátor;30;HIGH
 fali szellőztető ventilátor;30;HIGH
 falra szerelhető ventilátor távirányítóval;30;HIGH
 fekvő ventilátor;30;HIGH
+flexi cső 1 2;30;HIGH
 flexibilis alumínium cső 150 mm;30;HIGH
+flexibilis csaptelep bekötőcső 3 8;30;HIGH
+flexibilis cső gáz;30;HIGH
+flexibilis cső gáztűzhelyhez;30;HIGH
+flexibilis cső praktiker;30;HIGH
+flexibilis cső páraelszívóhoz;30;HIGH
+flexibilis gázcső 3000mm;30;HIGH
+flexibilis gázcső maximális hossza;30;HIGH
+flexibilis levegőcső;30;HIGH
+flexibilis szívócső;30;HIGH
+flexibilis védőcső;30;HIGH
+flexibilis vízcső 1 2;30;HIGH
+flexibilis vízcső 200 cm;30;HIGH
+flexibilis vízcső 3 4;30;HIGH
+flexibilis öntözőcső;30;HIGH
 forgó ventilátor;30;HIGH
+fém flexibilis cső;30;HIGH
 fémlapátos ventilátor;30;HIGH
 fütő ventilátor;30;HIGH
+gaz flexi cso;30;HIGH
 grundig aroma diffúzor;30;HIGH
 gyerek ventilátor;30;HIGH
+gáz flexibilis cső obi;30;HIGH
+gáz flexicső;30;HIGH
+gépi szellőzés;30;HIGH
+hepa szuros legtisztito;30;HIGH
 hideg párologtató;30;HIGH
 hideg párásítás;30;HIGH
 hideg párásító euronics;30;HIGH
@@ -776,7 +1114,11 @@ hideg párásító mire jó;30;HIGH
 hideget fújó ventilátor;30;HIGH
 hordozható párásító;30;HIGH
 hordozható ózongenerátor;30;HIGH
+hovisszanyeros szellozteto rendszer;30;HIGH
 huto futo ventilator;30;HIGH
+hőszivattyús szellőztető rendszer;30;HIGH
+hővisszanyerős szellőztető fürdőszobába;30;HIGH
+hővisszanyerős szellőztető ár;30;HIGH
 hűtő fűtő torony ventilátor;30;HIGH
 hűtő fűtő álló ventilátor;30;HIGH
 illóolajos párásító;30;HIGH
@@ -785,23 +1127,35 @@ ipari légszárító;30;HIGH
 ipari párásító készülék;30;HIGH
 ipari álló ventilátor;30;HIGH
 keresztáramú ventilátor;30;HIGH
+kg visszacsapó szelep 110;30;HIGH
 kisméretű ventilátor;30;HIGH
 klarstein oszlopventilátor;30;HIGH
 klima paramentesites;30;LOW
 klima páramentesítő;30;LOW
 klima vezérlő panel;30;MEDIUM
+kompresszor visszacsapó szelep 1 2;30;HIGH
 konnektoros termosztát obi;30;HIGH
 konnektoros termosztát praktiker;30;HIGH
+kpe visszacsapó szelep 25;30;HIGH
+központi hővisszanyerős szellőztető rendszer;30;HIGH
 lapat nelkuli ventilator;30;HIGH
+lefolyó visszacsapó szelep 32;30;HIGH
 legjobb párásító készülék;30;HIGH
 legjobb párátlanító;30;HIGH
 levegő párátlanító;30;HIGH
+lidl légtisztító;30;MEDIUM
+lux ac6 levegőtisztító;30;HIGH
+lux légtisztító szűrő;30;HIGH
 léghűtéses ventilátor;30;HIGH
 léghűtő vagy ventilátor;30;
 légkeverő ventilátor;30;HIGH
 légmosó készülék;30;HIGH
+légtechnika kivitelezés;30;HIGH
+légtisztító berendezés lakásba;30;HIGH
+légtisztító készülék philips;30;HIGH
 légtisztító párásító készülék;30;HIGH
 légtisztító párátlanító;30;HIGH
+macskavizelet szagtalanítása;30;HIGH
 maico ventilátor;30;HIGH
 meleg párásító készülék;30;HIGH
 meleglevegős ventilátor;30;HIGH
@@ -809,13 +1163,17 @@ melegpárásító;30;HIGH
 mennyezeti ventilátor jófogás;30;LOW
 mennyezeti ventilátor távirányítós praktiker;30;HIGH
 midea paratlanito;30;HIGH
+mini légtisztító;30;HIGH
 mini páramentesítő;30;HIGH
 mini ózongenerátor;30;HIGH
 mobil páramentesítő;30;HIGH
+mosdó csaptelep flexibilis cső;30;HIGH
 motorhűtő ventilátor;30;HIGH
 mozgásérzékelős ventilátor;30;HIGH
 mókuskerék ventilátor;30;MEDIUM
 nyakba tehető ventilátor;30;HIGH
+nyelves visszacsapó szelep;30;HIGH
+nyílt égésterű kazán szellőzés;30;HIGH
 obi asztali ventilátor;30;HIGH
 ok ventilátor;30;HIGH
 orion odeh 031b páramentesítő;30;HIGH
@@ -825,6 +1183,7 @@ padloventilator;30;HIGH
 para mentesito;30;HIGH
 paraerzekelos ventilátor;30;HIGH
 paramentesitő;30;HIGH
+philips 3000i légtisztító;30;HIGH
 philips párologtató;30;HIGH
 philips párásító szűrő tisztítása;30;HIGH
 philips párásító és légtisztító;30;HIGH
@@ -832,6 +1191,8 @@ philips párátlanító;30;HIGH
 philips series 2000 párásító;30;HIGH
 plafonra szerelhető ventilátor;30;HIGH
 praktiker toronyventilátor;30;HIGH
+pvc flexibilis cső;30;HIGH
+páraelszívó flexibilis cső;30;HIGH
 páraelszívó ventilátor páraérzékelős;30;HIGH
 páramentesítés klímával;30;HIGH
 páramentesítő 20l;30;HIGH
@@ -870,21 +1231,30 @@ radiátorra szerelhető ventilátor;30;HIGH
 rcool szobatermosztát;30;HIGH
 retro asztali ventilátor;30;LOW
 salty air premium ultrahangos párásító 3in1;30;HIGH
+silvercrest legtisztito;30;HIGH
+silvercrest légtisztító;30;HIGH
 sinclair páramentesítő;30;HIGH
 somogyi home ventilátor;30;HIGH
 star light párátlanító;30;HIGH
+szagtalanítás;30;HIGH
 szellozteto ventilátor;30;HIGH
+szellőztető rendszer cső;30;HIGH
+szellőztető rendszer lakásba;30;HIGH
 szellőztető ventilátor időzítővel;30;HIGH
 szigetelt szellőző cső;30;HIGH
 szoba hűtő ventilátor;30;HIGH
 szoba páramentesítő;30;HIGH
 szoba párátlanító;30;HIGH
 szobai hűtőventillátor;30;HIGH
+szobai légtisztító készülékek;30;HIGH
 szobai páramentesítő;30;HIGH
 szobai párátlanító;30;HIGH
+szögletes légtechnikai cső;30;HIGH
+szőnyeg szagtalanítása;30;HIGH
 só párásító készülék;30;HIGH
 taviranyitos ventilátor;30;HIGH
 terasz mennyezeti ventilátor;30;HIGH
+therapy air ion légtisztító;30;HIGH
 torony ventilator;30;HIGH
 torony ventilátor obi;30;HIGH
 trotec páramentesítő tisztítása;30;HIGH
@@ -893,6 +1263,7 @@ távirányitos ventilátor;30;HIGH
 távirányitós ventilátor;30;HIGH
 távirányítós ventilátor tesco;30;HIGH
 ultra fresh páramentesítő;30;HIGH
+uv légtisztító;30;HIGH
 venta párásító;30;HIGH
 ventilátor allo;30;HIGH
 ventilátor emag;30;HIGH
@@ -903,29 +1274,58 @@ ventilátor szobába;30;HIGH
 ventilátor tipusok;30;HIGH
 ventilátor típusok;30;HIGH
 ventilátorok fajtái;30;HIGH
+visszacsapó szelep szennyvízhez;30;HIGH
 vivamax gyvh30;30;MEDIUM
 vivamax gyvh43;30;HIGH
 vivamax gyvh43 salty air ultrahangos párásító;30;HIGH
 vivamax gyvh47;30;HIGH
 vivamax gyvh47 salty air compact párásító;30;HIGH
+vivamax légtisztító;30;HIGH
 vivamax párásító salty air;30;HIGH
 vivamax salty air vélemények;30;HIGH
 vizes ventilator;30;HIGH
+víz flexibilis cső;30;HIGH
 vízpermetező ventilátor;30;HIGH
+wc flexibilis cső;30;HIGH
 wifi ventilátor;30;HIGH
 wifis ventilátor;30;HIGH
+xiaomi levegőszűrő betét;30;HIGH
+xiaomi légtisztitó;30;HIGH
+xiaomi légtisztító 3h;30;HIGH
+xiaomi légtisztító pro;30;LOW
 xiaomi okos párásító;30;HIGH
 xiaomi paramentesito;30;HIGH
 xiaomi paratlanito;30;HIGH
 xiaomi ultrahangos párásító;30;HIGH
+zehnder hővisszanyerős szellőztető;30;HIGH
+zepter therapy air szűrő tisztítása;30;MEDIUM
 árukereső páramentesítő;30;HIGH
+1 4 flexibilis cső;20;HIGH
+110 es flexibilis cső;20;HIGH
+110 pvc cső visszacsapó szelep;20;HIGH
+120 mm flexibilis cső;20;HIGH
 12v fürdőszobai ventilátor;20;HIGH
 12v os ventilátor;20;HIGH
+150 flexibilis cső;20;HIGH
+2 colos flexibilis cső;20;HIGH
+3 4 bekötőcső;20;HIGH
+3 4 colos flexibilis cső;20;HIGH
+3 8 bekötőcső;20;HIGH
+3 8 kb flexibilis cső;20;HIGH
+32 mm flexibilis cső;20;HIGH
+40 es flexibilis cső;20;HIGH
+50 es flexibilis cső;20;HIGH
+6 4 flexibilis cső;20;HIGH
+80mm flexibilis cső;20;HIGH
 ablakba szerelhető páramentesítő;20;HIGH
 adszorpciós párátlanító;20;HIGH
+aereco szellőző tisztítás;20;MEDIUM
+air wolf légtisztító szűrő;20;HIGH
+airfree légtisztító;20;HIGH
 akkumulátoros páramentesítő;20;HIGH
 akkumulátoros ventilátor euronics;20;HIGH
 aktobis páramentesítő;20;HIGH
+aktív szellőztető rendszer;20;LOW
 aldi easy home páramentesítő vélemények;20;HIGH
 aldi easyhome páramentesítő;20;HIGH
 aldi paramentesito;20;HIGH
@@ -934,26 +1334,34 @@ ariston párátlanító;20;HIGH
 aroma diffúzor párásító készülék;20;HIGH
 arukereso parasito;20;HIGH
 asztali kis ventilátor;20;HIGH
+asztali légtisztító;20;HIGH
 asztali párásító;20;HIGH
 asztali ventilátor 30 cm;20;HIGH
 asztali ventilátor 40 cm;20;HIGH
+auchan légtisztító;20;HIGH
 baba parologtato;20;HIGH
 bauhaus páramentesítő;20;HIGH
 befuvo ventilátor;20;HIGH
+beltéri légtisztító;20;HIGH
 bewello léghűtő;20;HIGH
 bewello ventilátor;20;HIGH
 bison páramentesítő;20;HIGH
+bojler flexibilis cső cseréje;20;LOW
 boneco légmosó;20;HIGH
 brendon légtisztító;20;HIGH
+béka nyelves visszacsapó szelep;20;HIGH
 ceresit páramentesítő vélemények;20;HIGH
 ceresit stop pára aero 360;20;HIGH
 ceresit stop pára aero 360 utántöltő tabletta;20;HIGH
+civis légtechnika kft;20;LOW
 co2 tabletta;20;HIGH
 computherm q20 rf;20;HIGH
 computherm q3 digitális szobatermosztát használati utasítás;20;MEDIUM
 computherm q7 programozható digitális szobatermosztát;20;HIGH
 computherm q7rf ár;20;HIGH
 computherm q8rf programozása;20;LOW
+coway légtisztító;20;HIGH
+csaptelep bekötő flexibilis cső;20;HIGH
 csarnok szellőztető ventilátor;20;HIGH
 csarnok ventilátor;20;HIGH
 csendes csőventilátor;20;HIGH
@@ -961,10 +1369,13 @@ csiptethető ventilátor;20;HIGH
 csőbe építhető ventilátor;20;HIGH
 daewoo oszlop ventilátor;20;HIGH
 daikin fali vezérlő;20;MEDIUM
+daikin legtisztito;20;HIGH
 daikin páramentesítő;20;HIGH
+depressziós szellőztetés;20;LOW
 desztillált víz párásítóba;20;HIGH
 diffúzor ultrahangos;20;HIGH
 digitális termosztát beállítása;20;HIGH
+dohos szekrény szagtalanítása;20;HIGH
 dupla ventilátor;20;HIGH
 dyras d12 5081;20;HIGH
 dyras álló ventilátor;20;HIGH
@@ -975,25 +1386,62 @@ eb 100 ventilátor;20;HIGH
 ec ventilátor;20;HIGH
 eladó mennyezeti ventilátor;20;HIGH
 electrolux exd20dn4w páramentesítő;20;HIGH
+elektromos légtisztító;20;HIGH
 elektromos paramentesito;20;HIGH
 elektromos párátlanító készülék;20;HIGH
+elektrosztatikus légtisztító;20;HIGH
 elszívó ventilátor 125;20;HIGH
 emag diffuzor;20;HIGH
 emag párásító;20;HIGH
 energiatakarékos ventilátor;20;HIGH
+esperanza légtisztító szűrő;20;HIGH
 eta párásító;20;HIGH
 euronics aroma diffúzor;20;HIGH
 euronics párologtató;20;HIGH
 euronics toronyventilátor;20;HIGH
 extra halk ventilátor;20;HIGH
 fagor páramentesítő;20;LOW
+fal szagtalanítása;20;HIGH
 falba szerelhető ventilátor;20;HIGH
 fali párátlanító;20;MEDIUM
 falon kívüli elszívó ventilátor;20;HIGH
 falra szerelhető hűtő fűtő ventilátor;20;HIGH
 falra szerelhető hűtő ventilátor;20;
 fan coil ventilátor;20;HIGH
+festo fojtó visszacsapó szelep;20;HIGH
+festo visszacsapó szelep;20;HIGH
 fisher paratlanito;20;HIGH
+flexibilis csövek;20;HIGH
+flexibilis cső 1;20;HIGH
+flexibilis cső 1 2 3 4;20;HIGH
+flexibilis cső 1 2 bb;20;HIGH
+flexibilis cső 150 mm;20;HIGH
+flexibilis cső 3 4 1 2;20;HIGH
+flexibilis cső 50mm;20;HIGH
+flexibilis cső 80mm;20;HIGH
+flexibilis cső csaphoz;20;HIGH
+flexibilis cső elosztó;20;HIGH
+flexibilis cső hosszabbító;20;HIGH
+flexibilis cső könyökkel;20;HIGH
+flexibilis cső tömítés;20;HIGH
+flexibilis cső átalakító;20;HIGH
+flexibilis gumicső;20;HIGH
+flexibilis gázcső bekötése;20;LOW
+flexibilis gázcső méretek;20;HIGH
+flexibilis gázcső obi;20;HIGH
+flexibilis hűtőfolyadék cső;20;HIGH
+flexibilis kpe cső;20;HIGH
+flexibilis lefolyócső praktiker;20;HIGH
+flexibilis műanyag cső 150 mm;20;HIGH
+flexibilis nyomócső;20;HIGH
+flexibilis páraelszívó cső;20;HIGH
+flexibilis radiátor cső;20;MEDIUM
+flexibilis szilikon cső;20;HIGH
+flexibilis vizcső;20;HIGH
+flexibilis vízbekötő cső;20;HIGH
+flexibilis vízbekötőcső;20;HIGH
+flexibilis vízvezeték cső;20;HIGH
+fojtó visszacsapó szelep működése;20;LOW
 fém álló ventilátor;20;MEDIUM
 földi ventilátor;20;HIGH
 fürdő elszívó ventilátor;20;HIGH
@@ -1002,10 +1450,14 @@ fürdőszoba ventilátor beszerelése;20;HIGH
 fürdőszobai elszívó ventilátor beszerelése;20;HIGH
 fürdőszobai ventilátor csendes;20;HIGH
 füst ventilátor;20;HIGH
+gigant flexibilis cső;20;HIGH
+golyós visszacsapó szelep szennyvízhez;20;HIGH
 gree daisy párátlanító;20;HIGH
 gree paratlanito;20;HIGH
 grundig párásító;20;HIGH
 gyerek párásító;20;HIGH
+gázbekötő flexibilis cső;20;HIGH
+gáztűzhely flexibilis cső;20;HIGH
 hajdú bojler hőmérséklet szabályozó;20;HIGH
 halk páramentesítő;20;HIGH
 halk álló ventilátor;20;HIGH
@@ -1014,20 +1466,30 @@ hauser oszlopventilátor;20;HIGH
 hauser párásító;20;HIGH
 hausmeister álló ventilátor;20;HIGH
 helios páraérzékelős ventilátor;20;HIGH
+helios szellőztető rendszer;20;HIGH
+hepa filteres légtisztító;20;HIGH
 hideg meleg parasito;20;HIGH
 hidegpárásító vivamax;20;HIGH
+higrosztát kapcsoló;20;HIGH
 home párásító ventilátor;20;
 home toronyventilátor;20;HIGH
+honeywell légtisztító;20;HIGH
 honeywell páramentesítő;20;HIGH
 hordozható kézi ventilátor;20;HIGH
 hordozható nyak ventilátor;20;
+huawei légtisztító;20;HIGH
+házi vízmű flexibilis cső;20;HIGH
 hőmérséklet szabályzó;20;HIGH
 hőmérséklet és páratartalom szabályzó;20;HIGH
 hőszigetelt légcsatorna;20;HIGH
+hővisszanyerős szellőztető házilag;20;HIGH
+hővisszanyerős szellőztető működése;20;HIGH
 hűtő fűtő párátlanító klíma;20;HIGH
+hűtő fűtő szellőztető rendszer;20;HIGH
 hűtő fűtő ventilátor árgép;20;HIGH
 hűtőtorony ventilátor;20;HIGH
 időkapcsolós ventilátor;20;HIGH
+ionos légtisztító;20;HIGH
 ipari elszívó ventilátor eladó;20;HIGH
 ipari hűtő ventilátor;20;HIGH
 ipari páramentesítő gép;20;HIGH
@@ -1040,11 +1502,15 @@ jófogás páramentesítő;20;HIGH
 jófogás ventilátor;20;HIGH
 kanlux elszívó;20;HIGH
 kanlux elszívó ventilátor;20;HIGH
+karimás visszacsapó szelep;20;HIGH
+kazán visszacsapó szelep;20;HIGH
+kazánház szellőző;20;HIGH
 kerti ventilátor;20;HIGH
 kik ventilátor;20;HIGH
 kis kézi ventilátor;20;HIGH
 kis méretű ventilátor;20;HIGH
 kisventilátor;20;HIGH
+klammer légtechnika;20;LOW
 klarstein toronyventilátor;20;HIGH
 klarstein álló ventilátor;20;HIGH
 klima paratlanitas;20;LOW
@@ -1056,26 +1522,58 @@ kocka ventilátor;20;HIGH
 kompresszor ventilátor lapát;20;MEDIUM
 kondenzációs páramentesítő;20;HIGH
 konvektor ventilátor;20;HIGH
+konyhai légtechnika;20;HIGH
 korel kddf 20den7 qa3;20;HIGH
+kpe cső visszacsapó szelep;20;HIGH
 kézi mini ventilátor;20;HIGH
 kézi párásító;20;HIGH
+központi szellőztető rendszer ár;20;HIGH
 kültéri vizes ventilátor;20;HIGH
 lakás párásító;20;HIGH
+lefolyócső flexibilis;20;HIGH
+legjobb legtisztito;20;HIGH
 legjobb párátlanító készülék;20;HIGH
+legtisztito keszulek;20;HIGH
+legtisztitó;20;HIGH
+legtisztító;20;HIGH
+lux aeroguard 4s levegőtisztító ára;20;HIGH
+lábszelep vagy visszacsapó szelep;20;HIGH
 légcsatorna ventilátor;20;HIGH
 légcserélő ventilátor;20;HIGH
+légfertőtlenítő készülék;20;HIGH
 léghűtő torony;20;HIGH
 légkondi párátlanítás;20;MEDIUM
 légkondicionáló párátlanítás;20;MEDIUM
 légmosó párásító;20;HIGH
 légszárító gép;20;HIGH
+légtechnika szellőzőrács;20;HIGH
+légtechnika szerelés árak;20;HIGH
+légtechnika tervezés;20;HIGH
+légtechnika tervezési segédlet;20;MEDIUM
+légtechnika tetőátvezető;20;HIGH
 légtechnikai bilincs;20;HIGH
+légtechnikai cső idomok;20;HIGH
+légtechnikai cégek;20;HIGH
+légtechnikai flexibilis cső;20;HIGH
+légtechnikai ragasztószalag;20;HIGH
+légtechnikai rendszerek;20;HIGH
+légtechnikai rendszerek tisztítása;20;LOW
+légtechnikai rács;20;HIGH
+légtechnikai zsalu;20;HIGH
+légtisztító asztmásoknak;20;HIGH
+légtisztító eladó;20;HIGH
+légtisztító ionizátor;20;HIGH
+légtisztító macskaszőr;20;HIGH
+légtisztító mire jó;20;HIGH
 légtisztító párásító egyben;20;HIGH
+légtisztító szűrőbetét;20;HIGH
+légtisztító zepter;20;HIGH
 maltec páramentesítő;20;HIGH
 master ventilátor;20;HIGH
 mddf 20den7 qa3 wifi párátlanító;20;HIGH
 mddf 20den7 qa3 wifi párátlanító 20l nap;20;HIGH
 mddp 50den7 qa3 wifi;20;HIGH
+medence visszacsapó szelep;20;HIGH
 mennyezeti ventilátor bekötése;20;MEDIUM
 mennyezeti ventilátor eladó;20;HIGH
 mennyezeti ventilátor ár;20;HIGH
@@ -1088,8 +1586,12 @@ midea páramentesítő tisztítása;20;LOW
 midea páramentesítő vélemények;20;HIGH
 mini csőventilátor;20;HIGH
 mini párologtató;20;HIGH
+mosdó flexibilis cső;20;HIGH
+mosogatógép szagtalanítása;20;HIGH
 multizónás termosztát;20;HIGH
 nanocloud párásító;20;HIGH
+negatív ionos légtisztító;20;HIGH
+nikken légtisztító;20;HIGH
 nile ventilátor;20;LOW
 obi oszlopventilátor;20;HIGH
 obi párásító ventilátor;20;
@@ -1106,6 +1608,7 @@ oszlop ventilátor árak;20;HIGH
 oszlopventilator;20;HIGH
 oszlopventilátor tesco;20;MEDIUM
 otthoni párásítás;20;HIGH
+oventrop visszacsapó szelep;20;HIGH
 padló ventilátor obi;20;HIGH
 padló ventilátor tesco;20;HIGH
 paramentesito hu;20;HIGH
@@ -1113,14 +1616,22 @@ paramentesito legtisztito;20;HIGH
 parasito lampa;20;HIGH
 paratlanito keszulekek;20;HIGH
 peltier párátlanító;20;HIGH
+penész elleni szellőztető rendszer;20;HIGH
+philips 4000i légtisztító;20;HIGH
 philips hu4803 01 párásító szűrő;20;HIGH
+philips légtisztito;20;HIGH
+philips légtisztitó;20;HIGH
+philips légtisztító 4000i;20;HIGH
 philips légtisztító párásító;20;HIGH
+philips légtisztító szűrőbetét;20;HIGH
 philips ultrahangos párásító;20;HIGH
 pici ventilátor;20;HIGH
+pince szellőztető rendszer;20;HIGH
 praktiker asztali ventilátor;20;HIGH
 praktiker párátlanító;20;HIGH
 pro breeze páramentesítő;20;HIGH
 proklima páramentesítő;20;MEDIUM
+pvc golyós visszacsapó szelep;20;HIGH
 pàramentesítő;20;HIGH
 páramentesitö;20;HIGH
 páramentesítő 10l nap;20;HIGH
@@ -1130,6 +1641,7 @@ páramentesítő electrolux;20;HIGH
 páramentesítő elektromos;20;HIGH
 páramentesítő emag;20;HIGH
 páramentesítő fisher;20;HIGH
+páramentesítő hepa szűrővel;20;HIGH
 páramentesítő klíma;20;HIGH
 páramentesítő lakásba;20;HIGH
 páramentesítő légtisztító készülék;20;HIGH
@@ -1167,17 +1679,27 @@ párátlanítók;20;HIGH
 q3 rf termosztát;20;HIGH
 q3rf termosztát használati útmutató;20;MEDIUM
 radiális ventilátor lapát;20;HIGH
+radiátor bekötés flexibilis csővel;20;HIGH
 radiátorra párásító;20;HIGH
+rekuperátoros szellőztető rendszer;20;HIGH
 rgb ventilátor vezérlő;20;HIGH
 rittal ventilátor;20;HIGH
 rohnson párásító;20;LOW
+rowenta légtisztító szűrő;20;HIGH
 rowenta álló ventilátor;20;HIGH
+rozsdamentes visszacsapó szelep;20;HIGH
+régi szekrény szagtalanítása;20;HIGH
 rúd ventilátor;20;HIGH
 salty air classic ultrahangos párásító 3in1;20;HIGH
 sapka ventilátor;20;HIGH
+saválló flexibilis cső;20;HIGH
+saválló visszacsapó szelep;20;HIGH
+sencor légtisztító szűrő;20;HIGH
 sencor párologtató;20;HIGH
 sencor párásító tisztítása;20;LOW
 sencor párátlanító;20;HIGH
+sencor sha 8400wh szűrő;20;HIGH
+sharp légtisztító szűrő;20;HIGH
 siku ventilátor;20;HIGH
 silvercrest párologtató;20;LOW
 silvercrest párásító;20;HIGH
@@ -1185,6 +1707,8 @@ somogyi páramentesítő;20;HIGH
 sonoflex 125;20;HIGH
 sonoflex 160;20;HIGH
 szagelnyelő;20;HIGH
+szekrény szagtalanítása;20;HIGH
+szellőztető rendszer hátrányai;20;MEDIUM
 szellőzőcső idomok;20;HIGH
 szigetelt flexibilis légcsatorna;20;HIGH
 szigetelt légcsatorna;20;HIGH
@@ -1195,24 +1719,31 @@ szoba ventilátor árukereső;20;
 szobai ventilátor tesco;20;HIGH
 szobai álló ventilátor;20;HIGH
 szobaventilátor;20;
+szénszűrős légtisztító;20;HIGH
 sós vizes párásítás;20;HIGH
+sütő szagtalanítása;20;MEDIUM
 talaj ventilátor;20;HIGH
+tefal légtisztító;20;HIGH
 termosztát computherm q3;20;HIGH
 termosztát digitális;20;HIGH
 termosztát q3;20;HIGH
 torony ventilátor távirányítós;20;HIGH
 torony ventilátor távirányítóval;20;HIGH
+tosot légtisztító;20;HIGH
 tosot párátlanító;20;HIGH
 tosot tdn10ay k4eba1a;20;MEDIUM
 trotec paramentesito;20;HIGH
 trotec páramentesítő vélemények;20;HIGH
 távirányítós asztali ventilátor;20;HIGH
+udvari wc szagtalanítása házilag;20;HIGH
 ultrahangos hideg párásító készülék;20;HIGH
 ultrahangos párásító működése;20;HIGH
 ultrahangos párásító vivamax;20;HIGH
 ultrahangos párásító vélemények;20;HIGH
 univex elszívó ventilátor;20;HIGH
 usb párásító;20;HIGH
+uv c légtisztító;20;HIGH
+uvc légtisztító;20;MEDIUM
 ventilátor arak;20;HIGH
 ventilátor csendes;20;HIGH
 ventilátor elszívó;20;HIGH
@@ -1242,26 +1773,48 @@ ventilátoros lámpa bekötése;20;HIGH
 ventilátoros szellőző;20;HIGH
 ventilátort;20;HIGH
 vents 100 ventilátor;20;HIGH
+visszacsapó szelep 110;20;HIGH
+visszacsapó szelep 110 mm;20;HIGH
+visszacsapó szelep 2;20;HIGH
+visszacsapó szelep 2 col;20;HIGH
+visszacsapó szelep jele;20;LOW
+visszacsapó szelep kpe csőhöz;20;HIGH
+visszacsapó szelep légtechnika;20;HIGH
+visszacsapó szelep praktiker;20;HIGH
+visszacsapó szelep vízhez;20;HIGH
 vivamax gyvh43 salty air ultrasonic humidifier párásító;20;HIGH
 vivamax salty air classic;20;HIGH
 vivamax salty air premium ultrahangos párásító 3in1;20;HIGH
 vivamax ultrahangos illóolaj párologtató;20;HIGH
+vízcső flexibilis;20;HIGH
 vízporlasztós ventilátor;20;HIGH
+vízóra visszacsapó szelep;20;HIGH
 westinghouse mennyezeti ventilátor;20;HIGH
 whirlpool de 20 w5252 páramentesítő;20;HIGH
 whirlpool párátlanító;20;HIGH
 wick párásító;20;MEDIUM
 wifi páramentesítő;20;HIGH
 xiaomi deerma párásító;20;HIGH
+xiaomi légszűrő betét;20;HIGH
+xiaomi légtisztito;20;HIGH
+xiaomi mi air purifier 3h szűrő ár;20;HIGH
 xiaomi parologtato;20;HIGH
 xiaomi párásító tisztítása;20;LOW
 xiaomi párásító vélemények;20;HIGH
+xiaomi smart air purifier 4 lite légtisztító;20;HIGH
 zajmentes ventilátor;20;HIGH
+zepter legtisztito;20;HIGH
+zepter legtisztito árak;20;MEDIUM
+zepter légtisztító eladó;20;HIGH
+zepter légtisztító nyaklánc;20;HIGH
+zepter légtisztító vélemények;20;HIGH
 álló hűtő ventilátor;20;HIGH
 álló oszlop ventilátor;20;HIGH
 álló ventilátor lapát;20;HIGH
 álló ventilátor árgép;20;HIGH
 álló ventilátor árukereső;20;LOW
+árukereső légtisztító;20;HIGH
+új szőnyeg szagtalanítása;20;HIGH
 co2 adagolás;10;HIGH
 co2 kontroller;10;HIGH
 co2 szint mérő;10;HIGH

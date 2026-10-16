@@ -167,6 +167,33 @@ hozzáadás, 11 törlés, 22 gyűjtő), 2 termék leválasztása rossz szülőr�
   Új: Talajjavító, gilisztahumusz. Agyaggolyó céloldala INNEN (Hidro: csak
   kereszt-link). 71 termék besorolva.
 
+### 2026-10-16: újrakészítés „csak a főkategória neve alapján”
+Felhasználói kérés: a kategórianeveket és -szerkezetet hagyjuk figyelmen kívül,
+csak a főkategória neve + élő termékkínálat (ACTIVE_ONLY) + kulcsszó alapján
+ajánljunk alkategóriákat (lapos, funkció / folyamat szerinti szerkezet).
+Az 1. változatok a git-történetben. A kulcsszó-lapokon az OLD lap neve: „A fő
+keresési szándékok”.
+- **Aktív szénszűrő, légtechnika** (`legtechnika_config.py`, 353 élő): 10 db
+  2. szintű kat. (nincs Klíma-gyűjtő). Új tanulság: „légtechnika” 1300,
+  „légtechnika cső” 880 > légcsatorna 320 → „Légtechnikai cső, idom, bilincs”;
+  „Klímavezérlő” önálló (higrosztát 70). Légtisztító 5400 / szellőzés 2900 = LN.
+- **Hidropónia, öntözés** (`hidroponia_ontozes_config.py`, 71 élő): 8 db lapos
+  kat.; „Hidrokultúra” (90) = agyaggolyó + hidrokosár + hidro cserép (agyaggolyó
+  céloldal a Közeg ágban); dán tálca (ebb and flow 70) és önöntöző alátét ide;
+  Vízpumpa + tartály összevonva; Permetező fő szó: kézi permetező 1300.
+- **Növényfeldolgozás, afterharvest** (`novenyfeldolgozas_config.py`, 79 élő):
+  folyamat-sorrend: Szárítás → Trimmelés (olló / gép 3. szint) → Érlelés és
+  tárolás (páraszabályzó / **terpén tasak (új)** / vákuumzsák) → Kivonatolás;
+  + Mérleg (1600) + Munkaeszköz (kesztyű, nagyító, szemüveg). „afterharvest”-re
+  nincs magyar keresés. Bővítés: befőttesüveg 4400.
+- **pH mérő, TDS mérő, refraktométer** (`ph_ec_config.py`, ÚJ config, 120 élő):
+  pH mérő (1900); EC és TDS mérő (590); Kombinált pH+EC; Talajmérő (590/480);
+  Monitor, szabályozó; Kalibráló folyadék; Szonda; pH teszt (lakmuszpapír 1000);
+  Refraktométer (1300, csak 1 élő termék → bővítés); pH+ / pH− (ph csökkentő 260).
+  Kulcsszó: friss lekérés + a felhasználó 2026-10-06-i pH/EC Excelje
+  (`mcp-upload-ph-ec-2026-10-06.txt`, csak ami frissen nem jött).
+- **Growbox**: a 2. változat (d264608) már így készült – újraépítve, változatlan.
+
 ## Döntések: kannibalizáció, több helyen szereplő kategóriák (2026-10-09)
 
 - Egy termék, egy URL, több kategória-hozzárendelés; duplikált termék nincs.

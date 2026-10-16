@@ -1,5 +1,7 @@
 ﻿kulcsszo;havi_kereses;verseny
 fermentálás;6600;MEDIUM
+befőttes üveg;4400;HIGH
+befőttesüveg;4400;HIGH
 mikroszkóp;3600;HIGH
 aszalógép;2900;HIGH
 gumikesztyű;2900;HIGH
@@ -10,6 +12,7 @@ digitálismérleg;1600;HIGH
 fermentált káposztalé;1600;MEDIUM
 trimmelő;1600;HIGH
 fermentáló üveg;1300;HIGH
+munkavédelmi kesztyű;1300;HIGH
 haj trimmelő;1000;HIGH
 humidorshop;1000;LOW
 nitril kesztyű;1000;HIGH
@@ -22,7 +25,9 @@ fóliahegesztő;720;HIGH
 gramm mérleg;720;HIGH
 gumikesztyű 100 db;720;HIGH
 gyerekmikroszkóp;720;HIGH
+pollenszűrő;720;HIGH
 simítózáras tasak;720;HIGH
+szita;720;HIGH
 digitális mikroszkóp;590;HIGH
 fermentáló edény;480;HIGH
 szárító állvány;480;HIGH
@@ -33,6 +38,7 @@ fenymikroszkop;390;HIGH
 fermentálás házilag;390;HIGH
 gardena metszőolló;390;HIGH
 hajtrimmelő gép;390;HIGH
+hőprés;390;HIGH
 kézi nagyító;390;HIGH
 lidl vákuumozó gép;390;HIGH
 metszőolló gardena;390;HIGH
@@ -41,6 +47,7 @@ teleszkópos metszőolló;390;HIGH
 trimmelés;390;LOW
 vákuumos fóliahegesztő;390;HIGH
 akkus metszőolló obi;320;HIGH
+csatos befőttes üveg;320;HIGH
 csomagoló zacskó;320;HIGH
 dioptriás munkavédelmi szemüveg;320;HIGH
 gumikesztyu;320;HIGH
@@ -70,6 +77,7 @@ analitikai mérleg;170;HIGH
 digitális nagyító;170;HIGH
 extrakció;170;LOW
 gumikesztyu hu;170;HIGH
+hőprés gép;170;HIGH
 kézi nagyító hol kapható;170;HIGH
 nagyitó;170;HIGH
 sztereomikroszkóp;170;HIGH
@@ -265,6 +273,7 @@ kukorica betakarítás;40;LOW
 kutya trimmelés;40;HIGH
 kézi metszőolló;40;HIGH
 kézi nagyító 10x;40;HIGH
+led szemüveg;40;HIGH
 ledes nagyítós lámpa;40;HIGH
 lámpás nagyító;40;HIGH
 mellévágó metszőolló;40;HIGH
@@ -397,6 +406,7 @@ gumikesztyű 200 db;20;HIGH
 gumikesztyű latex;20;HIGH
 gumikesztyű mosogatáshoz;20;HIGH
 gumikesztyűk;20;HIGH
+gyógynövény feldolgozás;20;LOW
 gyógynövény szárítása;20;LOW
 gyógynövény tinktúra készítése;20;LOW
 gyógynövény tároló;20;MEDIUM

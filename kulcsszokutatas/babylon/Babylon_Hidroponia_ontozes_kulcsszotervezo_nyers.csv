@@ -352,6 +352,7 @@ magyar háti permetező javítása;110;LOW
 mtz vízpumpa;110;HIGH
 oleo mac permetező;110;HIGH
 ontozo;110;HIGH
+perisztaltikus pumpa;110;HIGH
 permetező drón ár;110;HIGH
 permetező markolat;110;HIGH
 permetező tartály;110;HIGH
@@ -481,6 +482,7 @@ xiaomi víztisztító;90;HIGH
 öntözőrendszer kiépítés;90;HIGH
 öntözőrendszer szelepakna;90;HIGH
 öntözőrendszer tervezés online;90;HIGH
+önöntöző cserép;90;HIGH
 100 literes axiál permetező;70;HIGH
 4 zónás öntözésvezérlő;70;HIGH
 5 literes akkumulátoros permetező;70;HIGH
@@ -530,6 +532,7 @@ csepegtető öntözés kellékei;70;HIGH
 csepegtető öntözőcső;70;HIGH
 darálós búvárszivattyú;70;HIGH
 delonghi vízszűrő euronics;70;HIGH
+ebb and flow;70;LOW
 elektromos permetezőgép;70;HIGH
 espring víztisztító szűrő;70;HIGH
 forditott ozmozisos viztisztito;70;HIGH
@@ -651,6 +654,7 @@ xiaomi vízszűrő;70;HIGH
 öntözőrendszer online;70;HIGH
 öntözőrendszer szűrő;70;HIGH
 öntözőrendszer téliesítés;70;HIGH
+összecsukható esővízgyűjtő;70;HIGH
 12v búvárszivattyú;50;HIGH
 16 os csepegtető cső;50;HIGH
 1m3 víztartály;50;HIGH
@@ -1221,8 +1225,12 @@ gyümölcs permetező;30;HIGH
 hardi permetező alkatrész katalógus;30;HIGH
 hardi permetező szivattyú;30;HIGH
 hecht akkumulátoros permetező;30;HIGH
+hidroponikus termesztés;30;HIGH
 hidropónia rendszer;30;HIGH
+hidropónia tápoldat;30;HIGH
+hidropónia tápoldat házilag;30;HIGH
 hidropóniás termesztés;30;HIGH
+hidropóniás tápoldat;30;HIGH
 honeywell vízszűrő betét;30;HIGH
 huniper permetező;30;MEDIUM
 hunter vezérlő programozása;30;MEDIUM
@@ -1456,6 +1464,7 @@ akkus háti permetező árgép;20;HIGH
 akkus permetező 5 literes;20;HIGH
 akkus permetező vélemények;20;
 aktív szénszűrő víztisztító;20;HIGH
+akvárium levegőztető kő;20;HIGH
 akváriumi vízszűrő;20;HIGH
 al ko buvarszivattyu;20;HIGH
 aldi vízszűrő kancsó;20;HIGH
@@ -1568,6 +1577,7 @@ di martino permetező;20;HIGH
 dimartino permetező alkatrész;20;HIGH
 direkt átfolyós víztisztító;20;HIGH
 dm vízszűrő betét;20;HIGH
+dán tálca;20;HIGH
 eladó akkumulátoros permetező;20;
 eladó axiál permetező;20;HIGH
 eladó függesztett permetező;20;HIGH
@@ -1676,6 +1686,7 @@ jessernigg permetező;20;HIGH
 jessur permetező;20;MEDIUM
 john deere hidas permetező;20;LOW
 jura claris smart vízszűrő patron;20;HIGH
+kapilláris cső öntözés;20;HIGH
 karcher búvárszivattyú;20;HIGH
 kasei akkumulátoros permetező;20;HIGH
 kasei akkus permetező;20;HIGH
