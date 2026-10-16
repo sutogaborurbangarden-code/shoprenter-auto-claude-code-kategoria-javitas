@@ -8,6 +8,7 @@ termőföld;2400;LOW
 tőzeg;2400;HIGH
 obi virágföld;1600;HIGH
 vermikulit;1600;HIGH
+gyökereztető hormon;1300;HIGH
 palántaföld;1300;HIGH
 virágföld 50l;1300;HIGH
 kókuszrost;1000;HIGH
@@ -56,6 +57,7 @@ talajjavító granulátum;110;HIGH
 virágföld rendelés;110;HIGH
 bioszén;90;HIGH
 huminsav talajjavító;90;HIGH
+jiffy;90;MEDIUM
 kertészeti perlit 100l;90;HIGH
 orchidea agyaggolyó;90;HIGH
 perlit virágföld;90;HIGH
@@ -77,6 +79,7 @@ palántaföld házilag;70;HIGH
 perlit 100 l;70;HIGH
 perlit használata;70;HIGH
 talajjavító szer;70;HIGH
+tápkocka;70;HIGH
 általános földkeverék;70;HIGH
 agyaggolyók;50;HIGH
 humusz giliszta eladó;50;HIGH
@@ -124,7 +127,9 @@ hidrogolyó;20;HIGH
 humusz giliszta;20;LOW
 kertészeti kőzetgyapot;20;HIGH
 kókuszrost praktiker;20;HIGH
+palánta tápkocka;20;HIGH
 palántaföld vagy virágföld;20;MEDIUM
+palántanevelő kocka;20;HIGH
 palántanevelő tőzeg;20;HIGH
 perlit vásárlás;20;HIGH
 plagron allmix;20;HIGH
@@ -134,10 +139,13 @@ agra wool;10;HIGH
 biobizz coco mix;10;MEDIUM
 canna coco;10;HIGH
 cocos premium;10;HIGH
+dehidratált tőzegtabletta;10;LOW
 grodan delta;10;HIGH
 grodan growcube;10;
 grodan kocka;10;HIGH
 grodan paplan;10;HIGH
+gyökereztető kocka;10;HIGH
+jiffy 7;10;HIGH
 kertészeti kőzetgyapot árlista;10;HIGH
 kókuszrost termesztőközeg;10;HIGH
 kőzetgyapot palánta;10;HIGH

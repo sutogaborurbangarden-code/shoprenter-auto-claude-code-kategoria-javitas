@@ -193,6 +193,18 @@ keresési szándékok”.
   Kulcsszó: friss lekérés + a felhasználó 2026-10-06-i pH/EC Excelje
   (`mcp-upload-ph-ec-2026-10-06.txt`, csak ami frissen nem jött).
 - **Growbox**: a 2. változat (d264608) már így készült – újraépítve, változatlan.
+- **Propagátor, propagátor kiegészítő** (`propagator_config.py`, most már
+  PRODUCTS-szal, 90 élő): Propagátor, mini üvegház (590); Fűthető propagátor;
+  Palántanevelő tálca, fedél (1000); Palántanevelő cserép; Fűtőlap +
+  termosztát együtt; **új: Dugványozás – gyökereztető gél** (gyökereztető
+  hormon 1300, gyökereztető por 720; Clonex); Palántanevelő LED lámpa (390,
+  céloldal itt); Palántaszállító csomagolás (navigációs). Menünév-javaslat:
+  „Palántanevelő, propagátor” (palántanevelő 880 ≫ propagátor 70).
+- **Termesztő közeg** (`termeszto_kozeg_config.py`, 63 élő): Virágföld +
+  palántaföld egy lapon; Kókuszrost; Kőzetgyapot; **Gyökereztető kocka, tőzeg-
+  és kókuszkorong ide került** (közeg; jiffy 90, tápkocka 70 – a Propagátor
+  ágból link); Perlit, vermikulit; **Agyaggolyó önálló** (880, céloldal);
+  Talaj- és közegjavító (guanó, gilisztahumusz, enzimek – enzim céloldal Tápok).
 
 ## Döntések: kannibalizáció, több helyen szereplő kategóriák (2026-10-09)
 

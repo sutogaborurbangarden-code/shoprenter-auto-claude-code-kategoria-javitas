@@ -25,6 +25,7 @@ digitalis hömerö;1300;HIGH
 digitális hőmérő;1300;HIGH
 digitálishőmérő;1300;HIGH
 fűtőszőnyeg;1300;HIGH
+gyökereztető hormon;1300;HIGH
 homlokzati hőszigetelés ár;1300;HIGH
 kőzetgyapot 15 cm;1300;HIGH
 lucerna vetőmag;1300;HIGH
@@ -512,6 +513,7 @@ lucerna vetőmag ár;110;HIGH
 lucerna vetőmag ára;110;HIGH
 mag csíráztatáshoz;110;HIGH
 magok csíráztatáshoz;110;HIGH
+magvető tálca;110;HIGH
 mangó ültetése gondozása;110;LOW
 meleg párásító;110;HIGH
 mezei virágmag keverék;110;HIGH
@@ -528,6 +530,7 @@ orchidea metszese;110;LOW
 orchidea metszése;110;LOW
 orosco vetőmag;110;MEDIUM
 palanta nevelo;110;HIGH
+palántanevelő sátor;110;HIGH
 paprika mag vetése;110;LOW
 philips légtisztító és párásító;110;HIGH
 philips párásító szűrő;110;HIGH
@@ -877,6 +880,7 @@ padlás szigetelés kőzetgyapot;70;HIGH
 padlás szigetelése kőzetgyapottal;70;HIGH
 palantafold;70;HIGH
 palantanevelo;70;HIGH
+palánta fűtés;70;HIGH
 palántaföld házilag;70;MEDIUM
 palántanevelés;70;LOW
 palántanevelő led lámpa;70;HIGH
@@ -1274,6 +1278,7 @@ carolina reaper termesztése;40;LOW
 charlotte f1 uborka;40;HIGH
 chili paprika mag ültetése;40;LOW
 citrom muskátli gondozása;40;LOW
+clonex gyökereztető gél;40;HIGH
 computherm b300rf használati utasítás;40;LOW
 computherm e280 wifi termosztát;40;HIGH
 computherm fali termosztát;40;HIGH
@@ -1563,7 +1568,7 @@ capsico vetőmag;30;HIGH
 cickafark vetőmag;30;HIGH
 cirok vetőmag ár;30;HIGH
 citromfa gondozása télen;30;LOW
-clonex gyökereztető gél;30;HIGH
+clonex gyökereztető;30;HIGH
 computherm 091;30;HIGH
 computherm e280 bekötése;30;LOW
 computherm e300 wi fi termosztát;30;HIGH
@@ -1648,6 +1653,7 @@ gsm termosztát;30;HIGH
 gyokerezteto por;30;HIGH
 gyógynövény vetőmag;30;HIGH
 gyökereztető folyadék;30;HIGH
+gyökereztető gél;30;HIGH
 gyökereztető szer;30;HIGH
 gyümölcsfa gyökereztetés;30;LOW
 gázkazán termosztát árak;30;HIGH
@@ -2221,7 +2227,6 @@ grodan;20;HIGH
 grodan kőzetgyapot;20;HIGH
 grundig párásító;20;HIGH
 gyerek párásító;20;HIGH
-gyökereztető gél;20;HIGH
 gyökereztető hormon ár;20;HIGH
 gyökereztető por obi;20;MEDIUM
 gyökérsarj szaporítás;20;LOW
