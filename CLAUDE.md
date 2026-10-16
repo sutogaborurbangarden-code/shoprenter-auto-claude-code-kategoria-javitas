@@ -136,14 +136,15 @@ hozzáadás, 11 törlés, 22 gyűjtő), 2 termék leválasztása rossz szülőr�
   Klíma 3. szint: Párásító / Páramentesítő / Hő- és páratartalom-mérő (új).
   Ventilátor-vezérlő → a Csőventilátor alá. Ózongenerátor 6600, de 1 termék
   (bővítési lehetőség). Légcsatorna 320 (a „légtechnikai cső” 0). 458 termék.
-- [x] 2026-10-15 **Growbox, termesztő sátor** (sandbox: Kis / Közepes / Nagy
-  growbox; Palántanevelő és propagátor sátor; Komplett growbox szett;
-  Growbox kiegészítő – háló, tálca, polc; Fényvisszaverő fólia) →
-  `growbox_config.py`. Nagyon kicsi volumen (termesztősátor 90, growbox 70);
-  méretre ~10/hó → a méret-kategóriák navigációsak (alapterület: ≤0,64 /
-  ≤1,44 / >1,44 m²; szettek másodlagosan méret szerint is). Erős: fényvisszaverő
-  fólia 390, palántanevelő sátor 110. „polc” → „felfüggesztő” (nincs polc
-  termék). „homebox” 140 = Telekom-zaj. 159 termék.
+- [x] 2026-10-16 **Growbox, termesztősátor – 2. változat** → `growbox_config.py`
+  (1. változat: f24cc7c). Mint a LED 2. változat: éles + sandbox alkategóriák
+  figyelmen kívül, terméktípus + szándék + élő kínálat (ACTIVE_ONLY, 114 élő
+  termék). Szerkezet: Termesztősátor (growbox) (termesztősátor 90; méret /
+  márka = szűrő); Nevelősátor (palántanevelő sátor 110); **új:** Gombatermesztő
+  sátor (gomba termesztés 320 → tartalom + bővítés); Komplett growbox szett;
+  Növénytámasztó háló (SCROG), yoyo; Sátorkiegészítő (tálca, alkatrész,
+  javító); Fényvisszaverő fólia (390). Lámpafüggesztő céloldala a LED ágban.
+  „Fóliasátor” 5400 = kerti → negatív kulcsszó. Mini üvegház 590 → Palántanevelő ág.
 - [x] 2026-10-16 **LED növényvilágítás – 2. változat** → `led_config.py`
   (az 1. változat a git-történetben: 22241cc / 2281939). Felhasználói kérés:
   **NE vegyük figyelembe sem az éles, sem a sandbox alkategóriákat** – csak

@@ -1,24 +1,34 @@
 ﻿kulcsszo;havi_kereses;verseny
+fóliasátor;5400;HIGH
 palántanevelő tálca;1000;HIGH
+növénynevelő lámpa;880;HIGH
 növénytámasz;880;HIGH
 palántanevelő;720;HIGH
 uborkaháló;720;HIGH
+mini üvegház;590;HIGH
 fényvisszaverő fólia;390;HIGH
 uborka háló;390;HIGH
+gomba termesztés;320;HIGH
 telekom home box;320;LOW
+laskagomba termesztés;210;HIGH
+mini fóliasátor;210;HIGH
+gombatermesztő készlet;170;HIGH
 mylar fólia;170;HIGH
 fényvisszaverő fólia ablakra;140;HIGH
 homebox;140;MEDIUM
+növényház;140;HIGH
 palántanevelő sátor;110;HIGH
 termesztősátor;90;HIGH
 uborka futtató háló;90;HIGH
 ezüst fólia;70;HIGH
 fényvisszaverő ablakfólia;70;HIGH
 fűthető palántanevelő;70;HIGH
+gombatermesztés házilag;70;HIGH
 gombatermesztés otthon;70;HIGH
 grow box;70;HIGH
 grow tent;70;HIGH
 growbox;70;HIGH
+laskagomba termőblokk;70;HIGH
 fekete fehér fólia;50;HIGH
 növénysátor;50;HIGH
 növénytartó háló;50;HIGH
@@ -26,8 +36,11 @@ növénytermesztő sátor;50;HIGH
 secret jardin;50;HIGH
 fényvisszaverő fólia autóra;40;HIGH
 növénytermesztő sátor szett;40;HIGH
+palántanevelő fóliasátor;40;HIGH
 reflexiós fólia;40;HIGH
+sátor javítás;40;HIGH
 sátor javító készlet;40;HIGH
+beltéri üvegház;30;HIGH
 gombatermesztő sátor;30;HIGH
 növény sátor;30;HIGH
 növénypolc;30;HIGH
@@ -40,6 +53,7 @@ grow box szett;20;HIGH
 növénynevelő sátor;20;HIGH
 palántanevelő állvány;20;HIGH
 scrog;20;MEDIUM
+sátor cipzár javítás;20;HIGH
 termesztő sátor szett;20;HIGH
 vízgyűjtő tálca;20;HIGH
 beltéri növény sátor;10;MEDIUM
